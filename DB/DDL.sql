@@ -9,13 +9,13 @@ DROP TABLE Continentes;
 
 -- Crear la tabla Continentes
 CREATE TABLE Continentes (
-    idContinente INT NOT NULL PRIMARY KEY,
+    idContinente INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
     Nombre VARCHAR(45) NOT NULL
 );
 
 -- Crear la tabla Vuelos
 CREATE TABLE Vuelos (
-    idVuelo INT NOT NULL PRIMARY KEY,
+    idVuelo INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
     Piloto VARCHAR(45) NOT NULL,
     Estado VARCHAR(45) NOT NULL,
     FechaSalida DATE NOT NULL
@@ -23,7 +23,7 @@ CREATE TABLE Vuelos (
 
 -- Crear la tabla Paises
 CREATE TABLE Paises (
-    idPais INT NOT NULL PRIMARY KEY,
+    idPais INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
     Nombre VARCHAR(45) NOT NULL,
     Codigo VARCHAR(45) NOT NULL,
     Continentes_idContinente INT NOT NULL,
@@ -54,7 +54,7 @@ CREATE TABLE Pasajeros (
 
 -- Crear la tabla Aeropuertos
 CREATE TABLE Aeropuertos (
-    idAeropuerto INT NOT NULL PRIMARY KEY,
+    idAeropuerto INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
     Nombre VARCHAR(45) NOT NULL,
     Paises_idPais INT NOT NULL,
     CONSTRAINT fk_Aeropuertos_Paises1 FOREIGN KEY (Paises_idPais)
