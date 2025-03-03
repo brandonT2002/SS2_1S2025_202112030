@@ -55,9 +55,9 @@ CREATE TABLE Pasajeros (
 -- Crear la tabla Aeropuertos
 CREATE TABLE Aeropuertos (
     idAeropuerto INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
-    Nombre VARCHAR(45) NOT NULL,
+    Nombre VARCHAR(100) NOT NULL,
     Paises_idPais INT NOT NULL,
-    CONSTRAINT fk_Aeropuertos_Paises1 FOREIGN KEY (Paises_idPais)
+    CONSTRAINT fk_Aeropuertos_Paises FOREIGN KEY (Paises_idPais)
         REFERENCES Paises(idPais)
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
