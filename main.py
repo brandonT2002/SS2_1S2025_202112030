@@ -49,7 +49,10 @@ def load_data_to_db(df, connection):
     try:
         cursor = connection.cursor()
 
-        # Verificar si la tabla existe antes de crearla
+        # === CONTINENTES ===
+        continentes_unicos = df['continents'].unique()
+        valores = ",".join([f"('{continente}')" for continente in continentes_unicos])
+
         cursor.execute('''
             IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'Continentes') AND type in (N'U'))
             BEGIN
@@ -61,18 +64,17 @@ def load_data_to_db(df, connection):
         ''')
         connection.commit()
 
-        # Insertar los datos de Continentes, evitando duplicados
-        for continente in df['continents'].unique():
-            cursor.execute('''
-                IF NOT EXISTS (SELECT 1 FROM Continentes WHERE Nombre = ?)
-                BEGIN
-                    INSERT INTO Continentes (Nombre) VALUES (?)
-                END
-            ''', (continente, continente))
-            connection.commit()
+        cursor.execute(f'''
+            INSERT INTO Continentes (Nombre)
+            SELECT DISTINCT temp.continente
+            FROM (VALUES {valores}) AS temp(continente)
+            WHERE NOT EXISTS (SELECT 1 FROM Continentes WHERE Nombre = temp.continente)
+        ''')
+        connection.commit()
         print("Datos de los continentes cargados con éxito.")
 
-        # Verificar si la tabla Vuelos existe antes de crearla
+        # === VUELOS ===
+        datos_vuelos = [(row['pilot_name'], row['flight_status'], row['departure_date']) for _, row in df.iterrows()]
         cursor.execute('''
             IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'Vuelos') AND type in (N'U'))
             BEGIN
@@ -86,17 +88,25 @@ def load_data_to_db(df, connection):
         ''')
         connection.commit()
 
-        # Insertar los datos de los vuelos
-        for _, row in df.iterrows():
-            cursor.execute('''
-                INSERT INTO Vuelos (Piloto, Estado, FechaSalida) 
-                VALUES (?, ?, ?)
-            ''', (row['pilot_name'], row['flight_status'], row['departure_date']))
-            connection.commit()
+        cursor.executemany('''
+            INSERT INTO Vuelos (Piloto, Estado, FechaSalida)
+            VALUES (?, ?, ?)
+        ''', datos_vuelos)
 
+        connection.commit()
         print("Datos de los vuelos cargados con éxito.")
 
-        # Verificar si la tabla Paises existe antes de crearla
+        # === PAISES ===
+        datos_paises = df[['country_name', 'airport_country_code', 'continents']].drop_duplicates()
+
+        cursor.execute('SELECT idContinente, Nombre FROM Continentes')
+        continentes_dict = {row[1]: row[0] for row in cursor.fetchall()}
+
+        datos_paises = [
+            (row['country_name'], row['airport_country_code'], continentes_dict.get(row['continents'], None))
+            for _, row in datos_paises.iterrows() if row['continents'] in continentes_dict
+        ]
+
         cursor.execute('''
             IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'Paises') AND type in (N'U'))
             BEGIN
@@ -114,61 +124,37 @@ def load_data_to_db(df, connection):
         ''')
         connection.commit()
 
-        # Insertar los datos de los países, asegurando la relación con Continentes
-        for _, row in df[['country_name', 'airport_country_code', 'continents']].drop_duplicates().iterrows():
-            # Obtener el id del continente correspondiente
-            cursor.execute('SELECT idContinente FROM Continentes WHERE Nombre = ?', (row['continents'],))
-            continente_id = cursor.fetchone()
+        cursor.executemany('''
+            INSERT INTO Paises (Nombre, Codigo, Continentes_idContinente)
+            SELECT ?, ?, ?
+            WHERE NOT EXISTS (
+                SELECT 1 FROM Paises WHERE Nombre = ? AND Codigo = ?
+            )
+        ''', [(pais[0], pais[1], pais[2], pais[0], pais[1]) for pais in datos_paises])
 
-            if continente_id:
-                continente_id = continente_id[0]
-
-                # Verificar si el país ya existe
-                cursor.execute('SELECT 1 FROM Paises WHERE Nombre = ? AND Codigo = ?', (row['country_name'], row['airport_country_code']))
-                exists = cursor.fetchone()
-
-                if not exists:
-                    # Insertar país en la tabla Paises
-                    cursor.execute('''
-                        INSERT INTO Paises (Nombre, Codigo, Continentes_idContinente) 
-                        VALUES (?, ?, ?)
-                    ''', (row['country_name'], row['airport_country_code'], continente_id))
-                    connection.commit()
-
+        connection.commit()
         print("Datos de los países cargados con éxito.")
 
-        # Verificar si la tabla Pasajeros existe antes de crearla
+        # === PASAJEROS ===
         cursor.execute('''
-            IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'Pasajeros') AND type in (N'U'))
-            BEGIN
-                CREATE TABLE Pasajeros (
-                    idPasajero VARCHAR(10) NOT NULL PRIMARY KEY,
-                    Nombre VARCHAR(45) NOT NULL,
-                    Apellido VARCHAR(45) NOT NULL,
-                    Sexo VARCHAR(45) NOT NULL,
-                    Edad INT NOT NULL,
-                    Vuelo_idVuelo INT NOT NULL,
-                    Paises_idPais INT NOT NULL,
-                    CONSTRAINT fk_Pasajero_Vuelo FOREIGN KEY (Vuelo_idVuelo)
-                        REFERENCES Vuelos(idVuelo)
-                        ON DELETE NO ACTION
-                        ON UPDATE NO ACTION,
-                    CONSTRAINT fk_Pasajeros_Paises FOREIGN KEY (Paises_idPais)
-                        REFERENCES Paises(idPais)
-                        ON DELETE NO ACTION
-                        ON UPDATE NO ACTION
-                )
-            END
+            IF OBJECT_ID('tempdb..#TempPasajeros') IS NOT NULL DROP TABLE #TempPasajeros;
+            CREATE TABLE #TempPasajeros (
+                idPasajero VARCHAR(10),
+                Nombre VARCHAR(45),
+                Apellido VARCHAR(45),
+                Sexo VARCHAR(45),
+                Edad INT,
+                Vuelo_idVuelo INT,
+                Paises_idPais INT
+            )
         ''')
         connection.commit()
 
-        # Insertar los pasajeros en la base de datos
+        data_to_insert = []
         for _, row in df.iterrows():
-            # Obtener el idPais correspondiente al país del pasajero
             cursor.execute('SELECT idPais FROM Paises WHERE Nombre = ?', (row['country_name'],))
             pais_id = cursor.fetchone()
 
-            # Obtener el idVuelo correspondiente al vuelo del pasajero
             cursor.execute('SELECT idVuelo FROM Vuelos WHERE Piloto = ? AND Estado = ? AND FechaSalida = ?',
                             (row['pilot_name'], row['flight_status'], row['departure_date']))
             vuelo_id = cursor.fetchone()
@@ -176,58 +162,63 @@ def load_data_to_db(df, connection):
             if pais_id and vuelo_id:
                 pais_id = pais_id[0]
                 vuelo_id = vuelo_id[0]
+                data_to_insert.append((row['passenger_id'], row['first_name'], row['last_name'], row['gender'], row['age'], vuelo_id, pais_id))
 
-                # Verificar si el pasajero ya existe
-                cursor.execute('SELECT 1 FROM Pasajeros WHERE idPasajero = ?', (row['passenger_id'],))
-                exists = cursor.fetchone()
+        if data_to_insert:
+            cursor.executemany('INSERT INTO #TempPasajeros (idPasajero, Nombre, Apellido, Sexo, Edad, Vuelo_idVuelo, Paises_idPais) VALUES (?, ?, ?, ?, ?, ?, ?)', data_to_insert)
+            connection.commit()
 
-                if not exists:
-                    # Insertar pasajero en la tabla Pasajeros
-                    cursor.execute('''
-                        INSERT INTO Pasajeros (idPasajero, Nombre, Apellido, Sexo, Edad, Vuelo_idVuelo, Paises_idPais) 
-                        VALUES (?, ?, ?, ?, ?, ?, ?)
-                    ''', (row['passenger_id'], row['first_name'], row['last_name'], row['gender'], row['age'], vuelo_id, pais_id))
-                    connection.commit()
-
-        print("Datos de los pasajeros cargados con éxito.")
-
-        # Verificar si la tabla Aeropuertos existe antes de crearla
         cursor.execute('''
-            IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'Aeropuertos') AND type in (N'U'))
-            BEGIN
-                CREATE TABLE Aeropuertos (
-                    idAeropuerto INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
-                    Nombre VARCHAR(100) NOT NULL,
-                    Paises_idPais INT NOT NULL,
-                    CONSTRAINT fk_Aeropuertos_Paises FOREIGN KEY (Paises_idPais)
-                        REFERENCES Paises(idPais)
-                        ON DELETE NO ACTION
-                        ON UPDATE NO ACTION
-                )
-            END
+            MERGE INTO Pasajeros AS target
+            USING #TempPasajeros AS source
+            ON target.idPasajero = source.idPasajero
+            WHEN NOT MATCHED THEN
+                INSERT (idPasajero, Nombre, Apellido, Sexo, Edad, Vuelo_idVuelo, Paises_idPais)
+                VALUES (source.idPasajero, source.Nombre, source.Apellido, source.Sexo, source.Edad, source.Vuelo_idVuelo, source.Paises_idPais);
         ''')
         connection.commit()
 
-        # Insertar los aeropuertos en la base de datos
+        cursor.execute('DROP TABLE #TempPasajeros')
+        connection.commit()
+
+        print("Datos de los pasajeros cargados con éxito.")
+
+        # === AEROPUERTOS ===
+        cursor.execute('''
+            IF OBJECT_ID('tempdb..#TempAeropuertos') IS NOT NULL DROP TABLE #TempAeropuertos;
+            CREATE TABLE #TempAeropuertos (
+                Nombre VARCHAR(100),
+                Paises_idPais INT
+            )
+        ''')
+        connection.commit()
+
+        data_to_insert = []
         for _, row in df.iterrows():
-            # Obtener el idPais correspondiente al país del aeropuerto
             cursor.execute('SELECT idPais FROM Paises WHERE Codigo = ?', (row['airport_country_code'],))
             pais_id = cursor.fetchone()
 
             if pais_id:
                 pais_id = pais_id[0]
+                data_to_insert.append((row['airport_name'], pais_id))
 
-                # Verificar si el aeropuerto ya existe
-                cursor.execute('SELECT 1 FROM Aeropuertos WHERE Nombre = ?', (row['airport_name'],))
-                exists = cursor.fetchone()
+        if data_to_insert:
+            cursor.executemany('INSERT INTO #TempAeropuertos (Nombre, Paises_idPais) VALUES (?, ?)', data_to_insert)
+            connection.commit()
 
-                if not exists:
-                    # Insertar aeropuerto en la tabla Aeropuertos
-                    cursor.execute('''
-                        INSERT INTO Aeropuertos (Nombre, Paises_idPais) 
-                        VALUES (?, ?)
-                    ''', (row['airport_name'], pais_id))
-                    connection.commit()
+        cursor.execute('''
+            MERGE INTO Aeropuertos AS target
+            USING #TempAeropuertos AS source
+            ON target.Nombre = source.Nombre
+            WHEN NOT MATCHED THEN
+                INSERT (Nombre, Paises_idPais)
+                VALUES (source.Nombre, source.Paises_idPais);
+        ''')
+        connection.commit()
+
+        # Limpiar la tabla temporal
+        cursor.execute('DROP TABLE #TempAeropuertos')
+        connection.commit()
 
         print("Datos de los aeropuertos cargados con éxito.")
 
