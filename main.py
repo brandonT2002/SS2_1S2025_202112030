@@ -2,7 +2,7 @@ from Utils.ConnectionDB import connect_to_db
 from ETL.ETL import run_etl
 from Queries.Queries import delete_model
 from Queries.Queries import create_model
-from Queries.Queries import count_tables
+from Queries.Queries import queries
 import easygui
 
 def show_menu():
@@ -32,7 +32,7 @@ def menu(connect):
             with open(file_path, "r", encoding="utf-8"):
                 run_etl(file_path, connect)
         elif option == 4:
-            count_tables(connect)
+            queries(connect)
         elif option == 5:
             break
         else:
