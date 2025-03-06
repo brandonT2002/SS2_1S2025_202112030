@@ -1,4 +1,8 @@
+from Utils.ConnectionDB import connect_to_db
 from ETL.ETL import run_etl
+from Queries.Queries import delete_model
+from Queries.Queries import create_model
+from Queries.Queries import count_tables
 import easygui
 
 def show_menu():
@@ -16,23 +20,24 @@ def show_menu():
     print()
     return option
 
-def menu():
+def menu(connect):
     while True:
         option = show_menu()
         if option == 1:
-            pass
+            delete_model(connect)
         elif option == 2:
-            pass
+            create_model(connect)
         elif option == 3:
             file_path = easygui.fileopenbox()
             with open(file_path, "r", encoding="utf-8"):
-                run_etl(file_path)
+                run_etl(file_path, connect)
         elif option == 4:
-            pass
+            count_tables(connect)
         elif option == 5:
             break
         else:
             print("Invalid option. Please try again.")
 
 if __name__ == "__main__":
-    menu()
+    connect = connect_to_db()
+    menu(connect)

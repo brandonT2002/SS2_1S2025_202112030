@@ -1,128 +1,200 @@
-import pandas as pd
-
 # === CARGA DE DATOS ===
-def load_data_to_db(df, connection):
+def load_data_to_db(df_cleaned, data_tranformed, airportS_tranformed, arrivalA_tranformed, pilot_tranformed, flightS_tranformed, flight_transformed, connection):
     try:
         cursor = connection.cursor()
         cursor.fast_executemany = True
 
-        # === CONTINENTES ===
-        df = df.dropna(subset=['continents'])  # Filtrar nulos en columna clave
-        continentes_unicos = df['continents'].unique()
-        valores = [(continente,) for continente in continentes_unicos]
+        merge_query = """
+            MERGE INTO Pasajero AS target
+            USING (VALUES (?, ?, ?, ?, ?, ?)) AS source (IdPasajero, Nombre, Apellido, Genero, Edad, Nacionalidad)
+            ON target.IdPasajero = source.IdPasajero
+            WHEN NOT MATCHED BY TARGET THEN
+                INSERT (IdPasajero, Nombre, Apellido, Genero, Edad, Nacionalidad)
+                VALUES (source.IdPasajero, source.Nombre, source.Apellido, source.Genero, source.Edad, source.Nacionalidad);
+        """
 
-        cursor.execute('''IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'Continentes') AND type in (N'U'))
-                            BEGIN CREATE TABLE Continentes (
-                                idContinente INT IDENTITY(1,1) PRIMARY KEY,
-                                Nombre VARCHAR(45) NOT NULL UNIQUE
-                            ) END''')
-        connection.commit()
-
-        if valores:
-            cursor.executemany('''INSERT INTO Continentes (Nombre) VALUES (?)''', valores)
-            connection.commit()
-            print("✅ Datos de los continentes cargados con éxito.")
-
-        # === VUELOS ===
-        df_vuelos = df.dropna(subset=['pilot_name', 'flight_status', 'departure_date'])
-        datos_vuelos = [(row['pilot_name'], row['flight_status'], row['departure_date']) 
-                        for _, row in df_vuelos.iterrows()]
-
-        cursor.execute('''IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'Vuelos') AND type in (N'U'))
-                            BEGIN CREATE TABLE Vuelos (
-                                idVuelo INT IDENTITY(1,1) PRIMARY KEY,
-                                Piloto VARCHAR(45) NOT NULL,
-                                Estado VARCHAR(45) NOT NULL,
-                                FechaSalida DATE NOT NULL
-                            ) END''')
-        connection.commit()
-
-        if datos_vuelos:
-            cursor.executemany('''INSERT INTO Vuelos (Piloto, Estado, FechaSalida) VALUES (?, ?, ?)''', datos_vuelos)
-            connection.commit()
-            print("✅ Datos de los vuelos cargados con éxito.")
-
-        # === PAISES ===
-        df_paises = df.dropna(subset=['country_name', 'airport_country_code', 'continents']).drop_duplicates()
-        
-        cursor.execute('SELECT idContinente, Nombre FROM Continentes')
-        continentes_dict = {row[1]: row[0] for row in cursor.fetchall()}
-
-        datos_paises = [
-            (row['country_name'], row['airport_country_code'], continentes_dict.get(row['continents']))
-            for _, row in df_paises.iterrows() if row['continents'] in continentes_dict
-        ]
-
-        cursor.execute('''IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'Paises') AND type in (N'U'))
-                            BEGIN CREATE TABLE Paises (
-                                idPais INT IDENTITY(1,1) PRIMARY KEY,
-                                Nombre VARCHAR(45) NOT NULL,
-                                Codigo VARCHAR(45) NOT NULL,
-                                Continentes_idContinente INT NOT NULL,
-                                CONSTRAINT fk_Paises_Continentes FOREIGN KEY (Continentes_idContinente)
-                                    REFERENCES Continentes(idContinente)
-                                    ON DELETE NO ACTION
-                                    ON UPDATE NO ACTION
-                            ) END''')
-        connection.commit()
-
-        if datos_paises:
-            cursor.executemany('''INSERT INTO Paises (Nombre, Codigo, Continentes_idContinente) VALUES (?, ?, ?)''', datos_paises)
-            connection.commit()
-            print("✅ Datos de los países cargados con éxito.")
-
-        # === PASAJEROS ===
+        # Insertar los datos en la base de datos de manera más eficiente
         data_to_insert = []
+        for index, row in df_cleaned.iterrows():
+            data_to_insert.append((row['IdPasajero'], row['Nombre'], row['Apellido'], row['Genero'], row['Edad'], row['Nacionalidad']))
 
-        for _, row in df.iterrows():
-            if pd.isnull(row[['passenger_id', 'first_name', 'last_name', 'gender', 'age', 'country_name', 'pilot_name', 'flight_status', 'departure_date']]).any():
-                continue  # Saltar filas con valores nulos en campos clave
+        # Agrupar todas las inserciones en una transacción
+        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        cursor.executemany(merge_query, data_to_insert)
+        connection.commit()
+        print("✅ Pasajeros insertados correctamente.")
 
-            cursor.execute('SELECT idPais FROM Paises WHERE TRIM(Nombre) = TRIM(?)', (row['country_name'],))
-            pais_id = cursor.fetchone()
+        # ===============================
 
-            cursor.execute('''SELECT idVuelo FROM Vuelos 
-                            WHERE TRIM(Piloto) = TRIM(?) 
-                            AND Estado = ? 
-                            AND FechaSalida = ?''',
-                        (row['pilot_name'], row['flight_status'], row['departure_date']))
-            vuelo_id = cursor.fetchone()
+        # Preparar la consulta SQL para realizar un MERGE
+        merge_query = """
+            MERGE INTO FechaSalida AS target
+            USING (VALUES (?, ?, ?, ?)) AS source (Fecha, Anio, Mes, Dia)
+            ON target.Fecha = source.Fecha
+            WHEN NOT MATCHED BY TARGET THEN
+                INSERT (Fecha, Anio, Mes, Dia)
+                VALUES (source.Fecha, source.Anio, source.Mes, source.Dia);
+        """
 
-            if pais_id and vuelo_id:
-                data_to_insert.append((row['passenger_id'], row['first_name'], row['last_name'], 
-                                        row['gender'], row['age'], vuelo_id[0], pais_id[0]))
-            else:
-                print(f"❌ No se encontró país o vuelo para: {row['country_name']} - {row['pilot_name']} ({row['departure_date']})")
-
-        if data_to_insert:
-            cursor.executemany('''INSERT INTO Pasajeros 
-                                (idPasajero, Nombre, Apellido, Sexo, Edad, Vuelo_idVuelo, Paises_idPais)
-                                VALUES (?, ?, ?, ?, ?, ?, ?)''', data_to_insert)
-            connection.commit()
-            print("✅ Datos de los pasajeros insertados correctamente.")
-        else:
-            print("❌ No hay datos válidos para insertar.")
-
-        # === AEROPUERTOS ===
-        cursor.execute('SELECT idPais, Codigo FROM Paises')
-        paises_dict = {row[1]: row[0] for row in cursor.fetchall()}
-
+        # Insertar los datos en la base de datos de manera más eficiente
         data_to_insert = []
-        for _, row in df.iterrows():
-            if pd.isnull(row['airport_name']) or pd.isnull(row['airport_country_code']):
-                continue  # Evitar inserción de datos nulos
+        for index, row in data_tranformed.iterrows():
+            data_to_insert.append((row['Departure Date'].date(), row['Anio'], row['Mes'], row['Dia']))
 
-            pais_id = paises_dict.get(row['airport_country_code'])
-            if pais_id:
-                data_to_insert.append((row['airport_name'], pais_id))
+        # Agrupar todas las inserciones en una transacción
+        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        cursor.executemany(merge_query, data_to_insert)
+        connection.commit()
 
-        if data_to_insert:
-            cursor.executemany('''INSERT INTO Aeropuertos (Nombre, Paises_idPais) VALUES (?, ?)''', data_to_insert)
-            connection.commit()
-            print("✅ Datos de los aeropuertos cargados con éxito.")
-        else:
-            print("❌ No se encontraron aeropuertos para insertar.")
+        print("✅ Fechas de salida insertadas correctamente.")
 
+        # ===============================
+
+        # Consulta SQL optimizada con MERGE para evitar duplicados
+        merge_query = """
+            MERGE INTO AeropuertoSalida AS target
+            USING (VALUES (?, ?, ?, ?, ?)) AS source (NombreAeropuerto, CodigoPais, NombrePais, ContinenteAeropuerto, Continente)
+            ON target.NombreAeropuerto = source.NombreAeropuerto AND target.CodigoPais = source.CodigoPais
+            WHEN NOT MATCHED THEN
+                INSERT (NombreAeropuerto, CodigoPais, NombrePais, ContinenteAeropuerto, Continente)
+                VALUES (source.NombreAeropuerto, source.CodigoPais, source.NombrePais, source.ContinenteAeropuerto, source.Continente);
+        """
+
+        # Preparar los datos para inserción masiva
+        data_to_insert = list(airportS_tranformed[['Airport Name', 'Airport Country Code', 'Country Name', 'Airport Continent', 'Continents']].itertuples(index=False, name=None))
+
+        # Insertar los datos en la base de datos de manera más eficiente
+        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        cursor.executemany(merge_query, data_to_insert)
+        connection.commit()
+
+        print("✅ Aeropuertos de salida insertados correctamente.")
+
+        # ===============================
+
+        # Consulta SQL optimizada con MERGE para evitar duplicados
+        merge_query = """
+            MERGE INTO AeropuertoLlegada AS target
+            USING (VALUES (?)) AS source (NombreAeropuerto)
+            ON target.NombreAeropuerto = source.NombreAeropuerto
+            WHEN NOT MATCHED THEN
+                INSERT (NombreAeropuerto)
+                VALUES (source.NombreAeropuerto);
+        """
+
+        # Preparar los datos para inserción masiva
+        data_to_insert = list(arrivalA_tranformed[['Arrival Airport']].itertuples(index=False, name=None))
+
+        # Insertar los datos en la base de datos de manera más eficiente
+        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        cursor.executemany(merge_query, data_to_insert)
+        connection.commit()
+
+        print("✅ Aeropuertos de llegada insertados correctamente.")
+
+        # ===============================
+        # Crear una tabla temporal para la inserción masiva
+        cursor.execute("CREATE TABLE #PilotosTemp (NombrePiloto NVARCHAR(100));")
+
+        # Insertar los datos en la tabla temporal
+        insert_query = "INSERT INTO #PilotosTemp (NombrePiloto) VALUES (?);"
+        cursor.fast_executemany = True  # Activar inserción rápida
+        cursor.executemany(insert_query, list(pilot_tranformed[['Pilot Name']].itertuples(index=False, name=None)))
+
+        # Ejecutar MERGE con la tabla temporal
+        merge_query = """
+            MERGE INTO Piloto AS target
+            USING #PilotosTemp AS source
+            ON target.NombrePiloto = source.NombrePiloto
+            WHEN NOT MATCHED THEN
+                INSERT (NombrePiloto) VALUES (source.NombrePiloto);
+        """
+        cursor.execute(merge_query)
+        connection.commit()
+
+        print("✅ Pilotos insertados correctamente.")
+
+        # ===============================
+        # Consulta SQL optimizada con MERGE para evitar duplicados
+        merge_query = """
+            MERGE INTO EstadoVuelo AS target
+            USING (VALUES (?)) AS source (Estado)
+            ON target.Estado = source.Estado
+            WHEN NOT MATCHED THEN
+                INSERT (Estado)
+                VALUES (source.Estado);
+        """
+
+        # Preparar los datos para inserción masiva
+        data_to_insert = list(flightS_tranformed[['Flight Status']].itertuples(index=False, name=None))
+
+        # Insertar los datos en la base de datos de manera eficiente
+        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        cursor.executemany(merge_query, data_to_insert)
+        connection.commit()
+
+        print("✅ Estados de vuelo insertados correctamente.")
+
+        # ===============================
+
+        # Obtener los valores únicos de cada columna relevante
+        passenger_values = flight_transformed['Passenger ID'].dropna().unique().tolist()
+        date_values = flight_transformed['Departure Date'].dropna().unique().tolist()
+        airport_values = flight_transformed['Airport Name'].dropna().unique().tolist()
+        arrival_values = flight_transformed['Arrival Airport'].dropna().unique().tolist()
+        pilot_values = flight_transformed['Pilot Name'].dropna().unique().tolist()
+        flight_status_values = flight_transformed['Flight Status'].dropna().unique().tolist()
+
+        # Consultar todos los IDs en lotes para evitar sobrecarga en SQL Server
+        passenger_ids = fetch_ids(cursor, "Pasajero", "IdPasajero", passenger_values)
+        date_ids = fetch_ids(cursor, "FechaSalida", "Fecha", date_values)
+        airport_ids = fetch_ids(cursor, "AeropuertoSalida", "NombreAeropuerto", airport_values)
+        arrival_airport_ids = fetch_ids(cursor, "AeropuertoLlegada", "NombreAeropuerto", arrival_values)
+        pilot_ids = fetch_ids(cursor, "Piloto", "NombrePiloto", pilot_values)
+        flight_status_ids = fetch_ids(cursor, "EstadoVuelo", "Estado", flight_status_values)
+
+        # **3. Preparar datos para inserción masiva**
+        insert_data = []
+        for _, row in flight_transformed.iterrows():
+            IdPasajero = passenger_ids.get(row['Passenger ID'])
+            IdFechaSalida = date_ids.get(row['Departure Date'])
+            IdAeropuertoSalida = airport_ids.get(row['Airport Name'])
+            IdAeropuertoLlegada = arrival_airport_ids.get(row['Arrival Airport'])
+            IdPiloto = pilot_ids.get(row['Pilot Name'])
+            IdEstadoVuelo = flight_status_ids.get(row['Flight Status'])
+
+            if None in (IdPasajero, IdFechaSalida, IdAeropuertoSalida, IdAeropuertoLlegada, IdPiloto, IdEstadoVuelo):
+                continue
+
+            insert_data.append((IdPasajero, IdFechaSalida, IdAeropuertoSalida, IdAeropuertoLlegada, IdPiloto, IdEstadoVuelo))
+
+        # **4. Inserción masiva**
+        insert_query = """
+            INSERT INTO Vuelo (IdPasajero, IdFechaSalida, IdAeropuertoSalida, IdAeropuertoLlegada, IdPiloto, IdEstadoVuelo)
+            VALUES (?, ?, ?, ?, ?, ?)
+        """
+
+        cursor.fast_executemany = True  # Acelerar la ejecución masiva
+        cursor.executemany(insert_query, insert_data)
+        connection.commit()
+
+        print(f"✅ {len(insert_data)} vuelos insertados correctamente.")
+
+        # Cerrar la conexión a la base de datos
+        connection.close()
     except Exception as e:
         print(f"❌ Error al cargar los datos: {e}")
         connection.rollback()
+
+
+# **2. Obtener IDs en una sola consulta por tabla**
+def fetch_ids(cursor, table, column_name, values, batch_size=1000):
+    """ Obtiene los IDs correspondientes a una lista de valores en lotes pequeños """
+    id_map = {}
+    for i in range(0, len(values), batch_size):
+        batch = values[i:i + batch_size]
+        placeholders = ', '.join(['?'] * len(batch))
+        query = f"SELECT {column_name}, Id{table} FROM {table} WHERE {column_name} IN ({placeholders})"
+        cursor.execute(query, *batch)
+        id_map.update({row[0]: row[1] for row in cursor.fetchall()})
+    return id_map

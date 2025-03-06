@@ -10,7 +10,7 @@ DROP TABLE FechaSalida;
 DROP TABLE Pasajero;
 
 CREATE TABLE Pasajero (
-    IdPasajero INT IDENTITY(1,1) PRIMARY KEY,
+    IdPasajero VARCHAR(50) PRIMARY KEY,
     Nombre NVARCHAR(50),
     Apellido NVARCHAR(50),
     Genero NVARCHAR(10),
@@ -58,7 +58,7 @@ GO
 
 CREATE TABLE Vuelo (
     IdVuelo INT IDENTITY(1,1) PRIMARY KEY,
-    IdPasajero INT,
+    IdPasajero VARCHAR(50),
     IdFechaSalida INT,
     IdAeropuertoSalida INT,
     IdAeropuertoLlegada INT,
@@ -78,3 +78,11 @@ CREATE TABLE Vuelo (
         REFERENCES EstadoVuelo(IdEstadoVuelo)
 );
 GO
+
+SELECT COUNT(*) FROM Pasajero;
+SELECT COUNT(*) FROM FechaSalida;
+SELECT COUNT(*) FROM AeropuertoSalida;
+SELECT COUNT(*) FROM AeropuertoLlegada;
+SELECT COUNT(*) FROM Piloto;
+SELECT COUNT(*) FROM EstadoVuelo;
+SELECT COUNT(*) FROM Vuelo;
