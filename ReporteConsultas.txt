@@ -1,0 +1,2502 @@
+=== 1. COUNT DE TABLAS ===
+Pasajeros: 98617
+Fechas de Salida: 220
+Aeropuertos Salida: 9062
+Aeropuertos Llegada: 9024
+Pilotos: 98605
+Estados: 3
+Vuelos: 59656
+
+=== 2. PASAJEROS POR GÉNERO ===
+Male: 50.29%
+Female: 49.71%
+
+=== 3. NACIONALIDADES CON SU MES/AÑO DE MAYOR FECHA DE SALIDA ===
+Nacionalidad: Afghanistan, Año: 2022, Mes: 1, Vuelos: 18
+Nacionalidad: Afghanistan, Año: 2022, Mes: 2, Vuelos: 19
+Nacionalidad: Afghanistan, Año: 2022, Mes: 3, Vuelos: 25
+Nacionalidad: Afghanistan, Año: 2022, Mes: 4, Vuelos: 21
+Nacionalidad: Afghanistan, Año: 2022, Mes: 5, Vuelos: 21
+Nacionalidad: Afghanistan, Año: 2022, Mes: 6, Vuelos: 20
+Nacionalidad: Afghanistan, Año: 2022, Mes: 7, Vuelos: 21
+Nacionalidad: Afghanistan, Año: 2022, Mes: 8, Vuelos: 23
+Nacionalidad: Afghanistan, Año: 2022, Mes: 9, Vuelos: 19
+Nacionalidad: Afghanistan, Año: 2022, Mes: 10, Vuelos: 19
+Nacionalidad: Afghanistan, Año: 2022, Mes: 11, Vuelos: 21
+Nacionalidad: Afghanistan, Año: 2022, Mes: 12, Vuelos: 23
+Nacionalidad: Aland Islands, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Aland Islands, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Aland Islands, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Aland Islands, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Aland Islands, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Aland Islands, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Aland Islands, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Aland Islands, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Aland Islands, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Albania, Año: 2022, Mes: 1, Vuelos: 24
+Nacionalidad: Albania, Año: 2022, Mes: 2, Vuelos: 17
+Nacionalidad: Albania, Año: 2022, Mes: 3, Vuelos: 25
+Nacionalidad: Albania, Año: 2022, Mes: 4, Vuelos: 21
+Nacionalidad: Albania, Año: 2022, Mes: 5, Vuelos: 22
+Nacionalidad: Albania, Año: 2022, Mes: 6, Vuelos: 29
+Nacionalidad: Albania, Año: 2022, Mes: 7, Vuelos: 21
+Nacionalidad: Albania, Año: 2022, Mes: 8, Vuelos: 23
+Nacionalidad: Albania, Año: 2022, Mes: 9, Vuelos: 23
+Nacionalidad: Albania, Año: 2022, Mes: 10, Vuelos: 22
+Nacionalidad: Albania, Año: 2022, Mes: 11, Vuelos: 22
+Nacionalidad: Albania, Año: 2022, Mes: 12, Vuelos: 27
+Nacionalidad: American Samoa, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: American Samoa, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: American Samoa, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: American Samoa, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: American Samoa, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: American Samoa, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: American Samoa, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: American Samoa, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: American Samoa, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: American Samoa, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Andorra, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Andorra, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Andorra, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Andorra, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Andorra, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Andorra, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Angola, Año: 2022, Mes: 1, Vuelos: 7
+Nacionalidad: Angola, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Angola, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Angola, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Angola, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Angola, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Angola, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Angola, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Angola, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Angola, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Angola, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Angola, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: Anguilla, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Anguilla, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Anguilla, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Antigua and Barbuda, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Antigua and Barbuda, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Antigua and Barbuda, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Antigua and Barbuda, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Antigua and Barbuda, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Antigua and Barbuda, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Antigua and Barbuda, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Argentina, Año: 2022, Mes: 1, Vuelos: 60
+Nacionalidad: Argentina, Año: 2022, Mes: 2, Vuelos: 48
+Nacionalidad: Argentina, Año: 2022, Mes: 3, Vuelos: 73
+Nacionalidad: Argentina, Año: 2022, Mes: 4, Vuelos: 74
+Nacionalidad: Argentina, Año: 2022, Mes: 5, Vuelos: 68
+Nacionalidad: Argentina, Año: 2022, Mes: 6, Vuelos: 67
+Nacionalidad: Argentina, Año: 2022, Mes: 7, Vuelos: 72
+Nacionalidad: Argentina, Año: 2022, Mes: 8, Vuelos: 64
+Nacionalidad: Argentina, Año: 2022, Mes: 9, Vuelos: 64
+Nacionalidad: Argentina, Año: 2022, Mes: 10, Vuelos: 82
+Nacionalidad: Argentina, Año: 2022, Mes: 11, Vuelos: 74
+Nacionalidad: Argentina, Año: 2022, Mes: 12, Vuelos: 63
+Nacionalidad: Armenia, Año: 2022, Mes: 1, Vuelos: 22
+Nacionalidad: Armenia, Año: 2022, Mes: 2, Vuelos: 16
+Nacionalidad: Armenia, Año: 2022, Mes: 3, Vuelos: 27
+Nacionalidad: Armenia, Año: 2022, Mes: 4, Vuelos: 26
+Nacionalidad: Armenia, Año: 2022, Mes: 5, Vuelos: 13
+Nacionalidad: Armenia, Año: 2022, Mes: 6, Vuelos: 21
+Nacionalidad: Armenia, Año: 2022, Mes: 7, Vuelos: 22
+Nacionalidad: Armenia, Año: 2022, Mes: 8, Vuelos: 25
+Nacionalidad: Armenia, Año: 2022, Mes: 9, Vuelos: 13
+Nacionalidad: Armenia, Año: 2022, Mes: 10, Vuelos: 29
+Nacionalidad: Armenia, Año: 2022, Mes: 11, Vuelos: 22
+Nacionalidad: Armenia, Año: 2022, Mes: 12, Vuelos: 14
+Nacionalidad: Aruba, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Australia, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Australia, Año: 2022, Mes: 2, Vuelos: 6
+Nacionalidad: Australia, Año: 2022, Mes: 3, Vuelos: 5
+Nacionalidad: Australia, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Australia, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Australia, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Australia, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Australia, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Australia, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Australia, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Australia, Año: 2022, Mes: 11, Vuelos: 9
+Nacionalidad: Australia, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: Austria, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Austria, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Austria, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Austria, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Austria, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Austria, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Austria, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: Austria, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Austria, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Austria, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Austria, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 1, Vuelos: 15
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 2, Vuelos: 10
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 3, Vuelos: 12
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 4, Vuelos: 10
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 5, Vuelos: 18
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 7, Vuelos: 13
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 8, Vuelos: 15
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 9, Vuelos: 10
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 10, Vuelos: 15
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 11, Vuelos: 11
+Nacionalidad: Azerbaijan, Año: 2022, Mes: 12, Vuelos: 9
+Nacionalidad: Bahamas, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Bahamas, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Bahamas, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Bahamas, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Bahamas, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Bahamas, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Bahamas, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Bahamas, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Bahamas, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Bahamas, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Bahrain, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Bahrain, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Bahrain, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Bahrain, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Bahrain, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Bahrain, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Bahrain, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Bahrain, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Bahrain, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Bangladesh, Año: 2022, Mes: 1, Vuelos: 15
+Nacionalidad: Bangladesh, Año: 2022, Mes: 2, Vuelos: 13
+Nacionalidad: Bangladesh, Año: 2022, Mes: 3, Vuelos: 17
+Nacionalidad: Bangladesh, Año: 2022, Mes: 4, Vuelos: 16
+Nacionalidad: Bangladesh, Año: 2022, Mes: 5, Vuelos: 11
+Nacionalidad: Bangladesh, Año: 2022, Mes: 6, Vuelos: 10
+Nacionalidad: Bangladesh, Año: 2022, Mes: 7, Vuelos: 9
+Nacionalidad: Bangladesh, Año: 2022, Mes: 8, Vuelos: 14
+Nacionalidad: Bangladesh, Año: 2022, Mes: 9, Vuelos: 10
+Nacionalidad: Bangladesh, Año: 2022, Mes: 10, Vuelos: 12
+Nacionalidad: Bangladesh, Año: 2022, Mes: 11, Vuelos: 17
+Nacionalidad: Bangladesh, Año: 2022, Mes: 12, Vuelos: 18
+Nacionalidad: Barbados, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Barbados, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Barbados, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Barbados, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Barbados, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Belarus, Año: 2022, Mes: 1, Vuelos: 23
+Nacionalidad: Belarus, Año: 2022, Mes: 2, Vuelos: 16
+Nacionalidad: Belarus, Año: 2022, Mes: 3, Vuelos: 15
+Nacionalidad: Belarus, Año: 2022, Mes: 4, Vuelos: 17
+Nacionalidad: Belarus, Año: 2022, Mes: 5, Vuelos: 21
+Nacionalidad: Belarus, Año: 2022, Mes: 6, Vuelos: 14
+Nacionalidad: Belarus, Año: 2022, Mes: 7, Vuelos: 18
+Nacionalidad: Belarus, Año: 2022, Mes: 8, Vuelos: 8
+Nacionalidad: Belarus, Año: 2022, Mes: 9, Vuelos: 11
+Nacionalidad: Belarus, Año: 2022, Mes: 10, Vuelos: 18
+Nacionalidad: Belarus, Año: 2022, Mes: 11, Vuelos: 21
+Nacionalidad: Belarus, Año: 2022, Mes: 12, Vuelos: 23
+Nacionalidad: Belgium, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Belgium, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Belgium, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Belgium, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Belgium, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Belgium, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Belgium, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Belgium, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Belgium, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Belize, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Belize, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Belize, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Belize, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Belize, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Belize, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Belize, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Benin, Año: 2022, Mes: 1, Vuelos: 5
+Nacionalidad: Benin, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Benin, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Benin, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Benin, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Benin, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Benin, Año: 2022, Mes: 8, Vuelos: 8
+Nacionalidad: Benin, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Benin, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Benin, Año: 2022, Mes: 11, Vuelos: 5
+Nacionalidad: Benin, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Bermuda, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Bermuda, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Bermuda, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Bermuda, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Bhutan, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Bhutan, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Bhutan, Año: 2022, Mes: 3, Vuelos: 5
+Nacionalidad: Bhutan, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Bhutan, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Bhutan, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Bhutan, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Bhutan, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Bhutan, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Bhutan, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Bhutan, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Bolivia, Año: 2022, Mes: 1, Vuelos: 14
+Nacionalidad: Bolivia, Año: 2022, Mes: 2, Vuelos: 10
+Nacionalidad: Bolivia, Año: 2022, Mes: 3, Vuelos: 14
+Nacionalidad: Bolivia, Año: 2022, Mes: 4, Vuelos: 12
+Nacionalidad: Bolivia, Año: 2022, Mes: 5, Vuelos: 10
+Nacionalidad: Bolivia, Año: 2022, Mes: 6, Vuelos: 9
+Nacionalidad: Bolivia, Año: 2022, Mes: 7, Vuelos: 12
+Nacionalidad: Bolivia, Año: 2022, Mes: 8, Vuelos: 16
+Nacionalidad: Bolivia, Año: 2022, Mes: 9, Vuelos: 13
+Nacionalidad: Bolivia, Año: 2022, Mes: 10, Vuelos: 9
+Nacionalidad: Bolivia, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Bolivia, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Bonaire, Saint Eustatius and Saba , Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Bonaire, Saint Eustatius and Saba , Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Bonaire, Saint Eustatius and Saba , Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Bonaire, Saint Eustatius and Saba , Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Bonaire, Saint Eustatius and Saba , Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 1, Vuelos: 9
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 2, Vuelos: 13
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 3, Vuelos: 6
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 4, Vuelos: 11
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 5, Vuelos: 14
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 6, Vuelos: 17
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 7, Vuelos: 17
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 8, Vuelos: 21
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 9, Vuelos: 15
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 10, Vuelos: 16
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 11, Vuelos: 13
+Nacionalidad: Bosnia and Herzegovina, Año: 2022, Mes: 12, Vuelos: 19
+Nacionalidad: Botswana, Año: 2022, Mes: 1, Vuelos: 10
+Nacionalidad: Botswana, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Botswana, Año: 2022, Mes: 3, Vuelos: 8
+Nacionalidad: Botswana, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Botswana, Año: 2022, Mes: 5, Vuelos: 8
+Nacionalidad: Botswana, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Botswana, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Botswana, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Botswana, Año: 2022, Mes: 9, Vuelos: 5
+Nacionalidad: Botswana, Año: 2022, Mes: 10, Vuelos: 13
+Nacionalidad: Botswana, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Botswana, Año: 2022, Mes: 12, Vuelos: 8
+Nacionalidad: Brazil, Año: 2022, Mes: 1, Vuelos: 203
+Nacionalidad: Brazil, Año: 2022, Mes: 2, Vuelos: 177
+Nacionalidad: Brazil, Año: 2022, Mes: 3, Vuelos: 185
+Nacionalidad: Brazil, Año: 2022, Mes: 4, Vuelos: 160
+Nacionalidad: Brazil, Año: 2022, Mes: 5, Vuelos: 223
+Nacionalidad: Brazil, Año: 2022, Mes: 6, Vuelos: 180
+Nacionalidad: Brazil, Año: 2022, Mes: 7, Vuelos: 217
+Nacionalidad: Brazil, Año: 2022, Mes: 8, Vuelos: 209
+Nacionalidad: Brazil, Año: 2022, Mes: 9, Vuelos: 172
+Nacionalidad: Brazil, Año: 2022, Mes: 10, Vuelos: 195
+Nacionalidad: Brazil, Año: 2022, Mes: 11, Vuelos: 167
+Nacionalidad: Brazil, Año: 2022, Mes: 12, Vuelos: 185
+Nacionalidad: British Virgin Islands, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Brunei, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Brunei, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Bulgaria, Año: 2022, Mes: 1, Vuelos: 16
+Nacionalidad: Bulgaria, Año: 2022, Mes: 2, Vuelos: 18
+Nacionalidad: Bulgaria, Año: 2022, Mes: 3, Vuelos: 19
+Nacionalidad: Bulgaria, Año: 2022, Mes: 4, Vuelos: 23
+Nacionalidad: Bulgaria, Año: 2022, Mes: 5, Vuelos: 19
+Nacionalidad: Bulgaria, Año: 2022, Mes: 6, Vuelos: 16
+Nacionalidad: Bulgaria, Año: 2022, Mes: 7, Vuelos: 15
+Nacionalidad: Bulgaria, Año: 2022, Mes: 8, Vuelos: 12
+Nacionalidad: Bulgaria, Año: 2022, Mes: 9, Vuelos: 19
+Nacionalidad: Bulgaria, Año: 2022, Mes: 10, Vuelos: 21
+Nacionalidad: Bulgaria, Año: 2022, Mes: 11, Vuelos: 14
+Nacionalidad: Bulgaria, Año: 2022, Mes: 12, Vuelos: 14
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 1, Vuelos: 8
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 4, Vuelos: 7
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 5, Vuelos: 8
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Burkina Faso, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Burundi, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Burundi, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Burundi, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Burundi, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Burundi, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Burundi, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Burundi, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Burundi, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Burundi, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Burundi, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Cambodia, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Cambodia, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Cambodia, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Cambodia, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Cambodia, Año: 2022, Mes: 5, Vuelos: 9
+Nacionalidad: Cambodia, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Cambodia, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Cambodia, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Cambodia, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Cambodia, Año: 2022, Mes: 10, Vuelos: 4
+Nacionalidad: Cambodia, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Cambodia, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Cameroon, Año: 2022, Mes: 1, Vuelos: 7
+Nacionalidad: Cameroon, Año: 2022, Mes: 2, Vuelos: 13
+Nacionalidad: Cameroon, Año: 2022, Mes: 3, Vuelos: 12
+Nacionalidad: Cameroon, Año: 2022, Mes: 4, Vuelos: 8
+Nacionalidad: Cameroon, Año: 2022, Mes: 5, Vuelos: 12
+Nacionalidad: Cameroon, Año: 2022, Mes: 6, Vuelos: 14
+Nacionalidad: Cameroon, Año: 2022, Mes: 7, Vuelos: 11
+Nacionalidad: Cameroon, Año: 2022, Mes: 8, Vuelos: 10
+Nacionalidad: Cameroon, Año: 2022, Mes: 9, Vuelos: 13
+Nacionalidad: Cameroon, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Cameroon, Año: 2022, Mes: 11, Vuelos: 14
+Nacionalidad: Cameroon, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Canada, Año: 2022, Mes: 1, Vuelos: 70
+Nacionalidad: Canada, Año: 2022, Mes: 2, Vuelos: 58
+Nacionalidad: Canada, Año: 2022, Mes: 3, Vuelos: 63
+Nacionalidad: Canada, Año: 2022, Mes: 4, Vuelos: 61
+Nacionalidad: Canada, Año: 2022, Mes: 5, Vuelos: 65
+Nacionalidad: Canada, Año: 2022, Mes: 6, Vuelos: 66
+Nacionalidad: Canada, Año: 2022, Mes: 7, Vuelos: 57
+Nacionalidad: Canada, Año: 2022, Mes: 8, Vuelos: 59
+Nacionalidad: Canada, Año: 2022, Mes: 9, Vuelos: 59
+Nacionalidad: Canada, Año: 2022, Mes: 10, Vuelos: 69
+Nacionalidad: Canada, Año: 2022, Mes: 11, Vuelos: 52
+Nacionalidad: Canada, Año: 2022, Mes: 12, Vuelos: 47
+Nacionalidad: Cape Verde, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Cape Verde, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Cape Verde, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Cape Verde, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Cape Verde, Año: 2022, Mes: 5, Vuelos: 3
+Nacionalidad: Cape Verde, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Cape Verde, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Cape Verde, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Cape Verde, Año: 2022, Mes: 10, Vuelos: 4
+Nacionalidad: Cape Verde, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Cayman Islands, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Cayman Islands, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Cayman Islands, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Cayman Islands, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Cayman Islands, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Central African Republic, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Central African Republic, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Central African Republic, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Central African Republic, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Central African Republic, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Central African Republic, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Central African Republic, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Central African Republic, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Central African Republic, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Central African Republic, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Central African Republic, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Central African Republic, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Chad, Año: 2022, Mes: 1, Vuelos: 8
+Nacionalidad: Chad, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Chad, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Chad, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Chad, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Chad, Año: 2022, Mes: 6, Vuelos: 5
+Nacionalidad: Chad, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Chad, Año: 2022, Mes: 8, Vuelos: 6
+Nacionalidad: Chad, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Chad, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Chad, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Chad, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Chile, Año: 2022, Mes: 1, Vuelos: 12
+Nacionalidad: Chile, Año: 2022, Mes: 2, Vuelos: 6
+Nacionalidad: Chile, Año: 2022, Mes: 3, Vuelos: 15
+Nacionalidad: Chile, Año: 2022, Mes: 4, Vuelos: 15
+Nacionalidad: Chile, Año: 2022, Mes: 5, Vuelos: 12
+Nacionalidad: Chile, Año: 2022, Mes: 6, Vuelos: 15
+Nacionalidad: Chile, Año: 2022, Mes: 7, Vuelos: 13
+Nacionalidad: Chile, Año: 2022, Mes: 8, Vuelos: 17
+Nacionalidad: Chile, Año: 2022, Mes: 9, Vuelos: 13
+Nacionalidad: Chile, Año: 2022, Mes: 10, Vuelos: 13
+Nacionalidad: Chile, Año: 2022, Mes: 11, Vuelos: 13
+Nacionalidad: Chile, Año: 2022, Mes: 12, Vuelos: 12
+Nacionalidad: China, Año: 2022, Mes: 1, Vuelos: 913
+Nacionalidad: China, Año: 2022, Mes: 2, Vuelos: 859
+Nacionalidad: China, Año: 2022, Mes: 3, Vuelos: 996
+Nacionalidad: China, Año: 2022, Mes: 4, Vuelos: 873
+Nacionalidad: China, Año: 2022, Mes: 5, Vuelos: 974
+Nacionalidad: China, Año: 2022, Mes: 6, Vuelos: 891
+Nacionalidad: China, Año: 2022, Mes: 7, Vuelos: 957
+Nacionalidad: China, Año: 2022, Mes: 8, Vuelos: 980
+Nacionalidad: China, Año: 2022, Mes: 9, Vuelos: 888
+Nacionalidad: China, Año: 2022, Mes: 10, Vuelos: 985
+Nacionalidad: China, Año: 2022, Mes: 11, Vuelos: 879
+Nacionalidad: China, Año: 2022, Mes: 12, Vuelos: 874
+Nacionalidad: Christmas Island, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Cocos Islands, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Colombia, Año: 2022, Mes: 1, Vuelos: 73
+Nacionalidad: Colombia, Año: 2022, Mes: 2, Vuelos: 50
+Nacionalidad: Colombia, Año: 2022, Mes: 3, Vuelos: 64
+Nacionalidad: Colombia, Año: 2022, Mes: 4, Vuelos: 71
+Nacionalidad: Colombia, Año: 2022, Mes: 5, Vuelos: 75
+Nacionalidad: Colombia, Año: 2022, Mes: 6, Vuelos: 82
+Nacionalidad: Colombia, Año: 2022, Mes: 7, Vuelos: 65
+Nacionalidad: Colombia, Año: 2022, Mes: 8, Vuelos: 56
+Nacionalidad: Colombia, Año: 2022, Mes: 9, Vuelos: 79
+Nacionalidad: Colombia, Año: 2022, Mes: 10, Vuelos: 68
+Nacionalidad: Colombia, Año: 2022, Mes: 11, Vuelos: 69
+Nacionalidad: Colombia, Año: 2022, Mes: 12, Vuelos: 70
+Nacionalidad: Comoros, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Comoros, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Comoros, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Comoros, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Comoros, Año: 2022, Mes: 5, Vuelos: 8
+Nacionalidad: Comoros, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Comoros, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Comoros, Año: 2022, Mes: 8, Vuelos: 5
+Nacionalidad: Comoros, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Comoros, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Comoros, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Comoros, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Costa Rica, Año: 2022, Mes: 1, Vuelos: 11
+Nacionalidad: Costa Rica, Año: 2022, Mes: 2, Vuelos: 8
+Nacionalidad: Costa Rica, Año: 2022, Mes: 3, Vuelos: 12
+Nacionalidad: Costa Rica, Año: 2022, Mes: 4, Vuelos: 11
+Nacionalidad: Costa Rica, Año: 2022, Mes: 5, Vuelos: 13
+Nacionalidad: Costa Rica, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Costa Rica, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Costa Rica, Año: 2022, Mes: 8, Vuelos: 13
+Nacionalidad: Costa Rica, Año: 2022, Mes: 9, Vuelos: 10
+Nacionalidad: Costa Rica, Año: 2022, Mes: 10, Vuelos: 6
+Nacionalidad: Costa Rica, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Costa Rica, Año: 2022, Mes: 12, Vuelos: 14
+Nacionalidad: Croatia, Año: 2022, Mes: 1, Vuelos: 26
+Nacionalidad: Croatia, Año: 2022, Mes: 2, Vuelos: 26
+Nacionalidad: Croatia, Año: 2022, Mes: 3, Vuelos: 28
+Nacionalidad: Croatia, Año: 2022, Mes: 4, Vuelos: 24
+Nacionalidad: Croatia, Año: 2022, Mes: 5, Vuelos: 28
+Nacionalidad: Croatia, Año: 2022, Mes: 6, Vuelos: 28
+Nacionalidad: Croatia, Año: 2022, Mes: 7, Vuelos: 28
+Nacionalidad: Croatia, Año: 2022, Mes: 8, Vuelos: 22
+Nacionalidad: Croatia, Año: 2022, Mes: 9, Vuelos: 25
+Nacionalidad: Croatia, Año: 2022, Mes: 10, Vuelos: 31
+Nacionalidad: Croatia, Año: 2022, Mes: 11, Vuelos: 28
+Nacionalidad: Croatia, Año: 2022, Mes: 12, Vuelos: 20
+Nacionalidad: Cuba, Año: 2022, Mes: 1, Vuelos: 20
+Nacionalidad: Cuba, Año: 2022, Mes: 2, Vuelos: 14
+Nacionalidad: Cuba, Año: 2022, Mes: 3, Vuelos: 18
+Nacionalidad: Cuba, Año: 2022, Mes: 4, Vuelos: 20
+Nacionalidad: Cuba, Año: 2022, Mes: 5, Vuelos: 13
+Nacionalidad: Cuba, Año: 2022, Mes: 6, Vuelos: 18
+Nacionalidad: Cuba, Año: 2022, Mes: 7, Vuelos: 19
+Nacionalidad: Cuba, Año: 2022, Mes: 8, Vuelos: 17
+Nacionalidad: Cuba, Año: 2022, Mes: 9, Vuelos: 21
+Nacionalidad: Cuba, Año: 2022, Mes: 10, Vuelos: 17
+Nacionalidad: Cuba, Año: 2022, Mes: 11, Vuelos: 18
+Nacionalidad: Cuba, Año: 2022, Mes: 12, Vuelos: 14
+Nacionalidad: Curacao, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Curacao, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Cyprus, Año: 2022, Mes: 1, Vuelos: 10
+Nacionalidad: Cyprus, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Cyprus, Año: 2022, Mes: 3, Vuelos: 7
+Nacionalidad: Cyprus, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Cyprus, Año: 2022, Mes: 5, Vuelos: 6
+Nacionalidad: Cyprus, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Cyprus, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Cyprus, Año: 2022, Mes: 8, Vuelos: 6
+Nacionalidad: Cyprus, Año: 2022, Mes: 9, Vuelos: 7
+Nacionalidad: Cyprus, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Cyprus, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Cyprus, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: Czech Republic, Año: 2022, Mes: 1, Vuelos: 87
+Nacionalidad: Czech Republic, Año: 2022, Mes: 2, Vuelos: 80
+Nacionalidad: Czech Republic, Año: 2022, Mes: 3, Vuelos: 93
+Nacionalidad: Czech Republic, Año: 2022, Mes: 4, Vuelos: 79
+Nacionalidad: Czech Republic, Año: 2022, Mes: 5, Vuelos: 79
+Nacionalidad: Czech Republic, Año: 2022, Mes: 6, Vuelos: 80
+Nacionalidad: Czech Republic, Año: 2022, Mes: 7, Vuelos: 95
+Nacionalidad: Czech Republic, Año: 2022, Mes: 8, Vuelos: 96
+Nacionalidad: Czech Republic, Año: 2022, Mes: 9, Vuelos: 76
+Nacionalidad: Czech Republic, Año: 2022, Mes: 10, Vuelos: 91
+Nacionalidad: Czech Republic, Año: 2022, Mes: 11, Vuelos: 88
+Nacionalidad: Czech Republic, Año: 2022, Mes: 12, Vuelos: 87
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 1, Vuelos: 9
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 3, Vuelos: 5
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 4, Vuelos: 15
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 5, Vuelos: 13
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 8, Vuelos: 11
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 10, Vuelos: 9
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Democratic Republic of the Congo, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: Denmark, Año: 2022, Mes: 1, Vuelos: 7
+Nacionalidad: Denmark, Año: 2022, Mes: 2, Vuelos: 8
+Nacionalidad: Denmark, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Denmark, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Denmark, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Denmark, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Denmark, Año: 2022, Mes: 7, Vuelos: 9
+Nacionalidad: Denmark, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: Denmark, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Denmark, Año: 2022, Mes: 10, Vuelos: 8
+Nacionalidad: Denmark, Año: 2022, Mes: 11, Vuelos: 5
+Nacionalidad: Denmark, Año: 2022, Mes: 12, Vuelos: 8
+Nacionalidad: Djibouti, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Djibouti, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Djibouti, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Djibouti, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Djibouti, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Djibouti, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Djibouti, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Djibouti, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Dominica, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Dominica, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Dominica, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Dominica, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Dominica, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Dominica, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Dominica, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Dominica, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Dominica, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Dominica, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 1, Vuelos: 13
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 2, Vuelos: 10
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 3, Vuelos: 14
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 4, Vuelos: 19
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 5, Vuelos: 19
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 6, Vuelos: 17
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 7, Vuelos: 16
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 8, Vuelos: 17
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 9, Vuelos: 15
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 10, Vuelos: 16
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 11, Vuelos: 16
+Nacionalidad: Dominican Republic, Año: 2022, Mes: 12, Vuelos: 13
+Nacionalidad: East Timor, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: East Timor, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: East Timor, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: East Timor, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: East Timor, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: East Timor, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: East Timor, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: East Timor, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Ecuador, Año: 2022, Mes: 1, Vuelos: 12
+Nacionalidad: Ecuador, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Ecuador, Año: 2022, Mes: 3, Vuelos: 15
+Nacionalidad: Ecuador, Año: 2022, Mes: 4, Vuelos: 9
+Nacionalidad: Ecuador, Año: 2022, Mes: 5, Vuelos: 12
+Nacionalidad: Ecuador, Año: 2022, Mes: 6, Vuelos: 12
+Nacionalidad: Ecuador, Año: 2022, Mes: 7, Vuelos: 9
+Nacionalidad: Ecuador, Año: 2022, Mes: 8, Vuelos: 6
+Nacionalidad: Ecuador, Año: 2022, Mes: 9, Vuelos: 10
+Nacionalidad: Ecuador, Año: 2022, Mes: 10, Vuelos: 11
+Nacionalidad: Ecuador, Año: 2022, Mes: 11, Vuelos: 6
+Nacionalidad: Ecuador, Año: 2022, Mes: 12, Vuelos: 18
+Nacionalidad: Egypt, Año: 2022, Mes: 1, Vuelos: 19
+Nacionalidad: Egypt, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Egypt, Año: 2022, Mes: 3, Vuelos: 15
+Nacionalidad: Egypt, Año: 2022, Mes: 4, Vuelos: 10
+Nacionalidad: Egypt, Año: 2022, Mes: 5, Vuelos: 16
+Nacionalidad: Egypt, Año: 2022, Mes: 6, Vuelos: 15
+Nacionalidad: Egypt, Año: 2022, Mes: 7, Vuelos: 20
+Nacionalidad: Egypt, Año: 2022, Mes: 8, Vuelos: 13
+Nacionalidad: Egypt, Año: 2022, Mes: 9, Vuelos: 11
+Nacionalidad: Egypt, Año: 2022, Mes: 10, Vuelos: 18
+Nacionalidad: Egypt, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Egypt, Año: 2022, Mes: 12, Vuelos: 11
+Nacionalidad: El Salvador, Año: 2022, Mes: 1, Vuelos: 8
+Nacionalidad: El Salvador, Año: 2022, Mes: 2, Vuelos: 6
+Nacionalidad: El Salvador, Año: 2022, Mes: 3, Vuelos: 12
+Nacionalidad: El Salvador, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: El Salvador, Año: 2022, Mes: 5, Vuelos: 6
+Nacionalidad: El Salvador, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: El Salvador, Año: 2022, Mes: 7, Vuelos: 8
+Nacionalidad: El Salvador, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: El Salvador, Año: 2022, Mes: 9, Vuelos: 7
+Nacionalidad: El Salvador, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: El Salvador, Año: 2022, Mes: 11, Vuelos: 12
+Nacionalidad: El Salvador, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Equatorial Guinea, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Eritrea, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Eritrea, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Eritrea, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Eritrea, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Eritrea, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Eritrea, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Estonia, Año: 2022, Mes: 1, Vuelos: 9
+Nacionalidad: Estonia, Año: 2022, Mes: 2, Vuelos: 8
+Nacionalidad: Estonia, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Estonia, Año: 2022, Mes: 4, Vuelos: 10
+Nacionalidad: Estonia, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Estonia, Año: 2022, Mes: 6, Vuelos: 5
+Nacionalidad: Estonia, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Estonia, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Estonia, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Estonia, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Estonia, Año: 2022, Mes: 11, Vuelos: 5
+Nacionalidad: Estonia, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: Ethiopia, Año: 2022, Mes: 1, Vuelos: 16
+Nacionalidad: Ethiopia, Año: 2022, Mes: 2, Vuelos: 9
+Nacionalidad: Ethiopia, Año: 2022, Mes: 3, Vuelos: 11
+Nacionalidad: Ethiopia, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Ethiopia, Año: 2022, Mes: 5, Vuelos: 8
+Nacionalidad: Ethiopia, Año: 2022, Mes: 6, Vuelos: 18
+Nacionalidad: Ethiopia, Año: 2022, Mes: 7, Vuelos: 11
+Nacionalidad: Ethiopia, Año: 2022, Mes: 8, Vuelos: 9
+Nacionalidad: Ethiopia, Año: 2022, Mes: 9, Vuelos: 12
+Nacionalidad: Ethiopia, Año: 2022, Mes: 10, Vuelos: 17
+Nacionalidad: Ethiopia, Año: 2022, Mes: 11, Vuelos: 12
+Nacionalidad: Ethiopia, Año: 2022, Mes: 12, Vuelos: 15
+Nacionalidad: Falkland Islands, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Falkland Islands, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Faroe Islands, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Faroe Islands, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Faroe Islands, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Faroe Islands, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Faroe Islands, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Faroe Islands, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Faroe Islands, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Fiji, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Fiji, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Fiji, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Fiji, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Fiji, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Finland, Año: 2022, Mes: 1, Vuelos: 30
+Nacionalidad: Finland, Año: 2022, Mes: 2, Vuelos: 21
+Nacionalidad: Finland, Año: 2022, Mes: 3, Vuelos: 28
+Nacionalidad: Finland, Año: 2022, Mes: 4, Vuelos: 28
+Nacionalidad: Finland, Año: 2022, Mes: 5, Vuelos: 20
+Nacionalidad: Finland, Año: 2022, Mes: 6, Vuelos: 39
+Nacionalidad: Finland, Año: 2022, Mes: 7, Vuelos: 37
+Nacionalidad: Finland, Año: 2022, Mes: 8, Vuelos: 29
+Nacionalidad: Finland, Año: 2022, Mes: 9, Vuelos: 23
+Nacionalidad: Finland, Año: 2022, Mes: 10, Vuelos: 22
+Nacionalidad: Finland, Año: 2022, Mes: 11, Vuelos: 27
+Nacionalidad: Finland, Año: 2022, Mes: 12, Vuelos: 26
+Nacionalidad: France, Año: 2022, Mes: 1, Vuelos: 179
+Nacionalidad: France, Año: 2022, Mes: 2, Vuelos: 125
+Nacionalidad: France, Año: 2022, Mes: 3, Vuelos: 140
+Nacionalidad: France, Año: 2022, Mes: 4, Vuelos: 122
+Nacionalidad: France, Año: 2022, Mes: 5, Vuelos: 153
+Nacionalidad: France, Año: 2022, Mes: 6, Vuelos: 147
+Nacionalidad: France, Año: 2022, Mes: 7, Vuelos: 155
+Nacionalidad: France, Año: 2022, Mes: 8, Vuelos: 177
+Nacionalidad: France, Año: 2022, Mes: 9, Vuelos: 140
+Nacionalidad: France, Año: 2022, Mes: 10, Vuelos: 149
+Nacionalidad: France, Año: 2022, Mes: 11, Vuelos: 116
+Nacionalidad: France, Año: 2022, Mes: 12, Vuelos: 139
+Nacionalidad: French Guiana, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: French Guiana, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: French Polynesia, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: French Polynesia, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: French Polynesia, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: French Polynesia, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: French Polynesia, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: French Polynesia, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: French Polynesia, Año: 2022, Mes: 8, Vuelos: 6
+Nacionalidad: French Polynesia, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: French Polynesia, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: French Polynesia, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: French Polynesia, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: French Southern Territories, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: French Southern Territories, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Gabon, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Gabon, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Gabon, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Gabon, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Gabon, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Gabon, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: Gabon, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Gabon, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Gabon, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Gabon, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Gambia, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Gambia, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Gambia, Año: 2022, Mes: 3, Vuelos: 6
+Nacionalidad: Gambia, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Gambia, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Gambia, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Gambia, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Gambia, Año: 2022, Mes: 8, Vuelos: 5
+Nacionalidad: Gambia, Año: 2022, Mes: 9, Vuelos: 8
+Nacionalidad: Gambia, Año: 2022, Mes: 10, Vuelos: 4
+Nacionalidad: Gambia, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Gambia, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: Georgia, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: Georgia, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Georgia, Año: 2022, Mes: 3, Vuelos: 5
+Nacionalidad: Georgia, Año: 2022, Mes: 4, Vuelos: 8
+Nacionalidad: Georgia, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Georgia, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Georgia, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Georgia, Año: 2022, Mes: 8, Vuelos: 5
+Nacionalidad: Georgia, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Georgia, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Georgia, Año: 2022, Mes: 11, Vuelos: 10
+Nacionalidad: Georgia, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: Germany, Año: 2022, Mes: 1, Vuelos: 16
+Nacionalidad: Germany, Año: 2022, Mes: 2, Vuelos: 12
+Nacionalidad: Germany, Año: 2022, Mes: 3, Vuelos: 19
+Nacionalidad: Germany, Año: 2022, Mes: 4, Vuelos: 18
+Nacionalidad: Germany, Año: 2022, Mes: 5, Vuelos: 12
+Nacionalidad: Germany, Año: 2022, Mes: 6, Vuelos: 8
+Nacionalidad: Germany, Año: 2022, Mes: 7, Vuelos: 11
+Nacionalidad: Germany, Año: 2022, Mes: 8, Vuelos: 16
+Nacionalidad: Germany, Año: 2022, Mes: 9, Vuelos: 13
+Nacionalidad: Germany, Año: 2022, Mes: 10, Vuelos: 21
+Nacionalidad: Germany, Año: 2022, Mes: 11, Vuelos: 14
+Nacionalidad: Germany, Año: 2022, Mes: 12, Vuelos: 14
+Nacionalidad: Ghana, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Ghana, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Ghana, Año: 2022, Mes: 3, Vuelos: 6
+Nacionalidad: Ghana, Año: 2022, Mes: 4, Vuelos: 9
+Nacionalidad: Ghana, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Ghana, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Ghana, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Ghana, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Ghana, Año: 2022, Mes: 9, Vuelos: 7
+Nacionalidad: Ghana, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Ghana, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Ghana, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Greece, Año: 2022, Mes: 1, Vuelos: 54
+Nacionalidad: Greece, Año: 2022, Mes: 2, Vuelos: 54
+Nacionalidad: Greece, Año: 2022, Mes: 3, Vuelos: 65
+Nacionalidad: Greece, Año: 2022, Mes: 4, Vuelos: 74
+Nacionalidad: Greece, Año: 2022, Mes: 5, Vuelos: 66
+Nacionalidad: Greece, Año: 2022, Mes: 6, Vuelos: 55
+Nacionalidad: Greece, Año: 2022, Mes: 7, Vuelos: 59
+Nacionalidad: Greece, Año: 2022, Mes: 8, Vuelos: 65
+Nacionalidad: Greece, Año: 2022, Mes: 9, Vuelos: 63
+Nacionalidad: Greece, Año: 2022, Mes: 10, Vuelos: 58
+Nacionalidad: Greece, Año: 2022, Mes: 11, Vuelos: 59
+Nacionalidad: Greece, Año: 2022, Mes: 12, Vuelos: 60
+Nacionalidad: Greenland, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Greenland, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Greenland, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Greenland, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Greenland, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Grenada, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Grenada, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Grenada, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Grenada, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Grenada, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Guadeloupe, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Guadeloupe, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Guadeloupe, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Guadeloupe, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Guadeloupe, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Guadeloupe, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Guadeloupe, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Guadeloupe, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Guam, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Guam, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Guam, Año: 2022, Mes: 5, Vuelos: 3
+Nacionalidad: Guam, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Guam, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Guam, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Guam, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Guam, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Guatemala, Año: 2022, Mes: 1, Vuelos: 18
+Nacionalidad: Guatemala, Año: 2022, Mes: 2, Vuelos: 20
+Nacionalidad: Guatemala, Año: 2022, Mes: 3, Vuelos: 19
+Nacionalidad: Guatemala, Año: 2022, Mes: 4, Vuelos: 20
+Nacionalidad: Guatemala, Año: 2022, Mes: 5, Vuelos: 25
+Nacionalidad: Guatemala, Año: 2022, Mes: 6, Vuelos: 15
+Nacionalidad: Guatemala, Año: 2022, Mes: 7, Vuelos: 26
+Nacionalidad: Guatemala, Año: 2022, Mes: 8, Vuelos: 20
+Nacionalidad: Guatemala, Año: 2022, Mes: 9, Vuelos: 17
+Nacionalidad: Guatemala, Año: 2022, Mes: 10, Vuelos: 16
+Nacionalidad: Guatemala, Año: 2022, Mes: 11, Vuelos: 12
+Nacionalidad: Guatemala, Año: 2022, Mes: 12, Vuelos: 18
+Nacionalidad: Guinea, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Guinea, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Guinea, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Guinea, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Guinea, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Guinea, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Guinea, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Guinea, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Guinea, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Guinea, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Guinea, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Guinea-Bissau, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Guinea-Bissau, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Guinea-Bissau, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Guinea-Bissau, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Guinea-Bissau, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Guinea-Bissau, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Guinea-Bissau, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Guyana, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Guyana, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Guyana, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Guyana, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Guyana, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Guyana, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Guyana, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Haiti, Año: 2022, Mes: 1, Vuelos: 5
+Nacionalidad: Haiti, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Haiti, Año: 2022, Mes: 3, Vuelos: 6
+Nacionalidad: Haiti, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Haiti, Año: 2022, Mes: 5, Vuelos: 11
+Nacionalidad: Haiti, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Haiti, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Haiti, Año: 2022, Mes: 8, Vuelos: 9
+Nacionalidad: Haiti, Año: 2022, Mes: 9, Vuelos: 10
+Nacionalidad: Haiti, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Haiti, Año: 2022, Mes: 11, Vuelos: 10
+Nacionalidad: Haiti, Año: 2022, Mes: 12, Vuelos: 11
+Nacionalidad: Honduras, Año: 2022, Mes: 1, Vuelos: 32
+Nacionalidad: Honduras, Año: 2022, Mes: 2, Vuelos: 33
+Nacionalidad: Honduras, Año: 2022, Mes: 3, Vuelos: 37
+Nacionalidad: Honduras, Año: 2022, Mes: 4, Vuelos: 20
+Nacionalidad: Honduras, Año: 2022, Mes: 5, Vuelos: 18
+Nacionalidad: Honduras, Año: 2022, Mes: 6, Vuelos: 24
+Nacionalidad: Honduras, Año: 2022, Mes: 7, Vuelos: 32
+Nacionalidad: Honduras, Año: 2022, Mes: 8, Vuelos: 25
+Nacionalidad: Honduras, Año: 2022, Mes: 9, Vuelos: 22
+Nacionalidad: Honduras, Año: 2022, Mes: 10, Vuelos: 29
+Nacionalidad: Honduras, Año: 2022, Mes: 11, Vuelos: 23
+Nacionalidad: Honduras, Año: 2022, Mes: 12, Vuelos: 16
+Nacionalidad: Hong Kong, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Hong Kong, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Hong Kong, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Hong Kong, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Hong Kong, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Hong Kong, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Hong Kong, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Hungary, Año: 2022, Mes: 1, Vuelos: 8
+Nacionalidad: Hungary, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Hungary, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Hungary, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Hungary, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Hungary, Año: 2022, Mes: 6, Vuelos: 5
+Nacionalidad: Hungary, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Hungary, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: Hungary, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Hungary, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Hungary, Año: 2022, Mes: 11, Vuelos: 10
+Nacionalidad: Hungary, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Iceland, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Iceland, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Iceland, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Iceland, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Iceland, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Iceland, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Iceland, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Iceland, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Iceland, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Iceland, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Iceland, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Iceland, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: India, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: India, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Indonesia, Año: 2022, Mes: 1, Vuelos: 554
+Nacionalidad: Indonesia, Año: 2022, Mes: 2, Vuelos: 488
+Nacionalidad: Indonesia, Año: 2022, Mes: 3, Vuelos: 556
+Nacionalidad: Indonesia, Año: 2022, Mes: 4, Vuelos: 506
+Nacionalidad: Indonesia, Año: 2022, Mes: 5, Vuelos: 528
+Nacionalidad: Indonesia, Año: 2022, Mes: 6, Vuelos: 525
+Nacionalidad: Indonesia, Año: 2022, Mes: 7, Vuelos: 528
+Nacionalidad: Indonesia, Año: 2022, Mes: 8, Vuelos: 569
+Nacionalidad: Indonesia, Año: 2022, Mes: 9, Vuelos: 526
+Nacionalidad: Indonesia, Año: 2022, Mes: 10, Vuelos: 538
+Nacionalidad: Indonesia, Año: 2022, Mes: 11, Vuelos: 521
+Nacionalidad: Indonesia, Año: 2022, Mes: 12, Vuelos: 483
+Nacionalidad: Iran, Año: 2022, Mes: 1, Vuelos: 35
+Nacionalidad: Iran, Año: 2022, Mes: 2, Vuelos: 25
+Nacionalidad: Iran, Año: 2022, Mes: 3, Vuelos: 25
+Nacionalidad: Iran, Año: 2022, Mes: 4, Vuelos: 26
+Nacionalidad: Iran, Año: 2022, Mes: 5, Vuelos: 26
+Nacionalidad: Iran, Año: 2022, Mes: 6, Vuelos: 25
+Nacionalidad: Iran, Año: 2022, Mes: 7, Vuelos: 36
+Nacionalidad: Iran, Año: 2022, Mes: 8, Vuelos: 37
+Nacionalidad: Iran, Año: 2022, Mes: 9, Vuelos: 23
+Nacionalidad: Iran, Año: 2022, Mes: 10, Vuelos: 27
+Nacionalidad: Iran, Año: 2022, Mes: 11, Vuelos: 24
+Nacionalidad: Iran, Año: 2022, Mes: 12, Vuelos: 28
+Nacionalidad: Iraq, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Iraq, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Iraq, Año: 2022, Mes: 3, Vuelos: 6
+Nacionalidad: Iraq, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Iraq, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Iraq, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Iraq, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Iraq, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Iraq, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Iraq, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Iraq, Año: 2022, Mes: 11, Vuelos: 5
+Nacionalidad: Iraq, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Ireland, Año: 2022, Mes: 1, Vuelos: 26
+Nacionalidad: Ireland, Año: 2022, Mes: 2, Vuelos: 14
+Nacionalidad: Ireland, Año: 2022, Mes: 3, Vuelos: 29
+Nacionalidad: Ireland, Año: 2022, Mes: 4, Vuelos: 19
+Nacionalidad: Ireland, Año: 2022, Mes: 5, Vuelos: 23
+Nacionalidad: Ireland, Año: 2022, Mes: 6, Vuelos: 19
+Nacionalidad: Ireland, Año: 2022, Mes: 7, Vuelos: 22
+Nacionalidad: Ireland, Año: 2022, Mes: 8, Vuelos: 19
+Nacionalidad: Ireland, Año: 2022, Mes: 9, Vuelos: 22
+Nacionalidad: Ireland, Año: 2022, Mes: 10, Vuelos: 24
+Nacionalidad: Ireland, Año: 2022, Mes: 11, Vuelos: 16
+Nacionalidad: Ireland, Año: 2022, Mes: 12, Vuelos: 27
+Nacionalidad: Isle of Man, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Isle of Man, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Isle of Man, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Israel, Año: 2022, Mes: 1, Vuelos: 7
+Nacionalidad: Israel, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Israel, Año: 2022, Mes: 3, Vuelos: 7
+Nacionalidad: Israel, Año: 2022, Mes: 4, Vuelos: 10
+Nacionalidad: Israel, Año: 2022, Mes: 5, Vuelos: 9
+Nacionalidad: Israel, Año: 2022, Mes: 6, Vuelos: 8
+Nacionalidad: Israel, Año: 2022, Mes: 7, Vuelos: 15
+Nacionalidad: Israel, Año: 2022, Mes: 8, Vuelos: 9
+Nacionalidad: Israel, Año: 2022, Mes: 9, Vuelos: 10
+Nacionalidad: Israel, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Israel, Año: 2022, Mes: 11, Vuelos: 13
+Nacionalidad: Israel, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Italy, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: Italy, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Italy, Año: 2022, Mes: 3, Vuelos: 8
+Nacionalidad: Italy, Año: 2022, Mes: 4, Vuelos: 6
+Nacionalidad: Italy, Año: 2022, Mes: 5, Vuelos: 11
+Nacionalidad: Italy, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Italy, Año: 2022, Mes: 7, Vuelos: 7
+Nacionalidad: Italy, Año: 2022, Mes: 8, Vuelos: 10
+Nacionalidad: Italy, Año: 2022, Mes: 9, Vuelos: 8
+Nacionalidad: Italy, Año: 2022, Mes: 10, Vuelos: 9
+Nacionalidad: Italy, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Italy, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 1, Vuelos: 5
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 3, Vuelos: 5
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 6, Vuelos: 8
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 7, Vuelos: 10
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 8, Vuelos: 10
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 9, Vuelos: 8
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 10, Vuelos: 8
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 11, Vuelos: 8
+Nacionalidad: Ivory Coast, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Jamaica, Año: 2022, Mes: 1, Vuelos: 7
+Nacionalidad: Jamaica, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Jamaica, Año: 2022, Mes: 3, Vuelos: 5
+Nacionalidad: Jamaica, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Jamaica, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Jamaica, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Jamaica, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Jamaica, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Jamaica, Año: 2022, Mes: 9, Vuelos: 8
+Nacionalidad: Jamaica, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Jamaica, Año: 2022, Mes: 11, Vuelos: 6
+Nacionalidad: Jamaica, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Japan, Año: 2022, Mes: 1, Vuelos: 107
+Nacionalidad: Japan, Año: 2022, Mes: 2, Vuelos: 70
+Nacionalidad: Japan, Año: 2022, Mes: 3, Vuelos: 94
+Nacionalidad: Japan, Año: 2022, Mes: 4, Vuelos: 96
+Nacionalidad: Japan, Año: 2022, Mes: 5, Vuelos: 97
+Nacionalidad: Japan, Año: 2022, Mes: 6, Vuelos: 86
+Nacionalidad: Japan, Año: 2022, Mes: 7, Vuelos: 98
+Nacionalidad: Japan, Año: 2022, Mes: 8, Vuelos: 85
+Nacionalidad: Japan, Año: 2022, Mes: 9, Vuelos: 70
+Nacionalidad: Japan, Año: 2022, Mes: 10, Vuelos: 111
+Nacionalidad: Japan, Año: 2022, Mes: 11, Vuelos: 82
+Nacionalidad: Japan, Año: 2022, Mes: 12, Vuelos: 102
+Nacionalidad: Jordan, Año: 2022, Mes: 1, Vuelos: 8
+Nacionalidad: Jordan, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Jordan, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Jordan, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Jordan, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Jordan, Año: 2022, Mes: 6, Vuelos: 9
+Nacionalidad: Jordan, Año: 2022, Mes: 7, Vuelos: 7
+Nacionalidad: Jordan, Año: 2022, Mes: 8, Vuelos: 8
+Nacionalidad: Jordan, Año: 2022, Mes: 9, Vuelos: 8
+Nacionalidad: Jordan, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Jordan, Año: 2022, Mes: 11, Vuelos: 12
+Nacionalidad: Jordan, Año: 2022, Mes: 12, Vuelos: 9
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 1, Vuelos: 15
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 2, Vuelos: 22
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 3, Vuelos: 23
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 4, Vuelos: 19
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 5, Vuelos: 16
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 6, Vuelos: 19
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 7, Vuelos: 20
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 8, Vuelos: 19
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 9, Vuelos: 24
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 10, Vuelos: 22
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 11, Vuelos: 17
+Nacionalidad: Kazakhstan, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Kenya, Año: 2022, Mes: 1, Vuelos: 8
+Nacionalidad: Kenya, Año: 2022, Mes: 2, Vuelos: 9
+Nacionalidad: Kenya, Año: 2022, Mes: 3, Vuelos: 8
+Nacionalidad: Kenya, Año: 2022, Mes: 4, Vuelos: 8
+Nacionalidad: Kenya, Año: 2022, Mes: 5, Vuelos: 9
+Nacionalidad: Kenya, Año: 2022, Mes: 6, Vuelos: 10
+Nacionalidad: Kenya, Año: 2022, Mes: 7, Vuelos: 9
+Nacionalidad: Kenya, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Kenya, Año: 2022, Mes: 9, Vuelos: 15
+Nacionalidad: Kenya, Año: 2022, Mes: 10, Vuelos: 4
+Nacionalidad: Kenya, Año: 2022, Mes: 11, Vuelos: 10
+Nacionalidad: Kenya, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Kiribati, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Kiribati, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Kiribati, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Kiribati, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Kiribati, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Kiribati, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Kiribati, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Kiribati, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Kosovo, Año: 2022, Mes: 1, Vuelos: 12
+Nacionalidad: Kosovo, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Kosovo, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Kosovo, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Kosovo, Año: 2022, Mes: 5, Vuelos: 6
+Nacionalidad: Kosovo, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Kosovo, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Kosovo, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Kosovo, Año: 2022, Mes: 9, Vuelos: 8
+Nacionalidad: Kosovo, Año: 2022, Mes: 10, Vuelos: 8
+Nacionalidad: Kosovo, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Kosovo, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Kuwait, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Kuwait, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Kuwait, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Kuwait, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Kuwait, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Kuwait, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Kuwait, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Kuwait, Año: 2022, Mes: 8, Vuelos: 5
+Nacionalidad: Kuwait, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Kuwait, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Kuwait, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Kuwait, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 1, Vuelos: 5
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 7, Vuelos: 8
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 8, Vuelos: 6
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 10, Vuelos: 6
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Kyrgyzstan, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Laos, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Laos, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Laos, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Laos, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Laos, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Laos, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Laos, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Laos, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Laos, Año: 2022, Mes: 10, Vuelos: 8
+Nacionalidad: Laos, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Laos, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Latvia, Año: 2022, Mes: 1, Vuelos: 10
+Nacionalidad: Latvia, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Latvia, Año: 2022, Mes: 3, Vuelos: 14
+Nacionalidad: Latvia, Año: 2022, Mes: 4, Vuelos: 6
+Nacionalidad: Latvia, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Latvia, Año: 2022, Mes: 6, Vuelos: 10
+Nacionalidad: Latvia, Año: 2022, Mes: 7, Vuelos: 14
+Nacionalidad: Latvia, Año: 2022, Mes: 8, Vuelos: 14
+Nacionalidad: Latvia, Año: 2022, Mes: 9, Vuelos: 9
+Nacionalidad: Latvia, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Latvia, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Latvia, Año: 2022, Mes: 12, Vuelos: 9
+Nacionalidad: Lebanon, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Lebanon, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Lebanon, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Lebanon, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Lebanon, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Lebanon, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Lebanon, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Lebanon, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Lebanon, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Lebanon, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: Lesotho, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Lesotho, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Lesotho, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Lesotho, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Lesotho, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Lesotho, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Lesotho, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Lesotho, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Lesotho, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Lesotho, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Lesotho, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Liberia, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Liberia, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Liberia, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Liberia, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Liberia, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Liberia, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Liberia, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Liberia, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Liberia, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Liberia, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Liberia, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Libya, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: Libya, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Libya, Año: 2022, Mes: 3, Vuelos: 10
+Nacionalidad: Libya, Año: 2022, Mes: 4, Vuelos: 7
+Nacionalidad: Libya, Año: 2022, Mes: 5, Vuelos: 3
+Nacionalidad: Libya, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Libya, Año: 2022, Mes: 7, Vuelos: 8
+Nacionalidad: Libya, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Libya, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Libya, Año: 2022, Mes: 10, Vuelos: 11
+Nacionalidad: Libya, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Libya, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Liechtenstein, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Liechtenstein, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Liechtenstein, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Lithuania, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: Lithuania, Año: 2022, Mes: 2, Vuelos: 6
+Nacionalidad: Lithuania, Año: 2022, Mes: 3, Vuelos: 9
+Nacionalidad: Lithuania, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Lithuania, Año: 2022, Mes: 5, Vuelos: 6
+Nacionalidad: Lithuania, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Lithuania, Año: 2022, Mes: 7, Vuelos: 11
+Nacionalidad: Lithuania, Año: 2022, Mes: 8, Vuelos: 12
+Nacionalidad: Lithuania, Año: 2022, Mes: 9, Vuelos: 11
+Nacionalidad: Lithuania, Año: 2022, Mes: 10, Vuelos: 12
+Nacionalidad: Lithuania, Año: 2022, Mes: 11, Vuelos: 9
+Nacionalidad: Lithuania, Año: 2022, Mes: 12, Vuelos: 9
+Nacionalidad: Luxembourg, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: Luxembourg, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Luxembourg, Año: 2022, Mes: 3, Vuelos: 7
+Nacionalidad: Luxembourg, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Luxembourg, Año: 2022, Mes: 5, Vuelos: 11
+Nacionalidad: Luxembourg, Año: 2022, Mes: 6, Vuelos: 14
+Nacionalidad: Luxembourg, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Luxembourg, Año: 2022, Mes: 8, Vuelos: 13
+Nacionalidad: Luxembourg, Año: 2022, Mes: 9, Vuelos: 5
+Nacionalidad: Luxembourg, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Luxembourg, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Luxembourg, Año: 2022, Mes: 12, Vuelos: 8
+Nacionalidad: Macedonia, Año: 2022, Mes: 1, Vuelos: 14
+Nacionalidad: Macedonia, Año: 2022, Mes: 2, Vuelos: 18
+Nacionalidad: Macedonia, Año: 2022, Mes: 3, Vuelos: 18
+Nacionalidad: Macedonia, Año: 2022, Mes: 4, Vuelos: 14
+Nacionalidad: Macedonia, Año: 2022, Mes: 5, Vuelos: 11
+Nacionalidad: Macedonia, Año: 2022, Mes: 6, Vuelos: 13
+Nacionalidad: Macedonia, Año: 2022, Mes: 7, Vuelos: 10
+Nacionalidad: Macedonia, Año: 2022, Mes: 8, Vuelos: 15
+Nacionalidad: Macedonia, Año: 2022, Mes: 9, Vuelos: 18
+Nacionalidad: Macedonia, Año: 2022, Mes: 10, Vuelos: 15
+Nacionalidad: Macedonia, Año: 2022, Mes: 11, Vuelos: 10
+Nacionalidad: Macedonia, Año: 2022, Mes: 12, Vuelos: 12
+Nacionalidad: Madagascar, Año: 2022, Mes: 1, Vuelos: 10
+Nacionalidad: Madagascar, Año: 2022, Mes: 2, Vuelos: 13
+Nacionalidad: Madagascar, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Madagascar, Año: 2022, Mes: 4, Vuelos: 16
+Nacionalidad: Madagascar, Año: 2022, Mes: 5, Vuelos: 13
+Nacionalidad: Madagascar, Año: 2022, Mes: 6, Vuelos: 13
+Nacionalidad: Madagascar, Año: 2022, Mes: 7, Vuelos: 17
+Nacionalidad: Madagascar, Año: 2022, Mes: 8, Vuelos: 14
+Nacionalidad: Madagascar, Año: 2022, Mes: 9, Vuelos: 9
+Nacionalidad: Madagascar, Año: 2022, Mes: 10, Vuelos: 19
+Nacionalidad: Madagascar, Año: 2022, Mes: 11, Vuelos: 15
+Nacionalidad: Madagascar, Año: 2022, Mes: 12, Vuelos: 13
+Nacionalidad: Malawi, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Malawi, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Malawi, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Malawi, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Malawi, Año: 2022, Mes: 5, Vuelos: 6
+Nacionalidad: Malawi, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Malawi, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Malawi, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Malawi, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Malawi, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Malawi, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Malaysia, Año: 2022, Mes: 1, Vuelos: 26
+Nacionalidad: Malaysia, Año: 2022, Mes: 2, Vuelos: 25
+Nacionalidad: Malaysia, Año: 2022, Mes: 3, Vuelos: 18
+Nacionalidad: Malaysia, Año: 2022, Mes: 4, Vuelos: 17
+Nacionalidad: Malaysia, Año: 2022, Mes: 5, Vuelos: 18
+Nacionalidad: Malaysia, Año: 2022, Mes: 6, Vuelos: 19
+Nacionalidad: Malaysia, Año: 2022, Mes: 7, Vuelos: 26
+Nacionalidad: Malaysia, Año: 2022, Mes: 8, Vuelos: 24
+Nacionalidad: Malaysia, Año: 2022, Mes: 9, Vuelos: 20
+Nacionalidad: Malaysia, Año: 2022, Mes: 10, Vuelos: 29
+Nacionalidad: Malaysia, Año: 2022, Mes: 11, Vuelos: 26
+Nacionalidad: Malaysia, Año: 2022, Mes: 12, Vuelos: 20
+Nacionalidad: Maldives, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Maldives, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Maldives, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Maldives, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Maldives, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: Maldives, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Maldives, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Maldives, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Maldives, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Mali, Año: 2022, Mes: 1, Vuelos: 9
+Nacionalidad: Mali, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Mali, Año: 2022, Mes: 3, Vuelos: 6
+Nacionalidad: Mali, Año: 2022, Mes: 4, Vuelos: 8
+Nacionalidad: Mali, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Mali, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Mali, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Mali, Año: 2022, Mes: 8, Vuelos: 8
+Nacionalidad: Mali, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Mali, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Mali, Año: 2022, Mes: 11, Vuelos: 8
+Nacionalidad: Mali, Año: 2022, Mes: 12, Vuelos: 8
+Nacionalidad: Malta, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Malta, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Malta, Año: 2022, Mes: 3, Vuelos: 6
+Nacionalidad: Malta, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Malta, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Malta, Año: 2022, Mes: 6, Vuelos: 5
+Nacionalidad: Malta, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Malta, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Malta, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Malta, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Malta, Año: 2022, Mes: 11, Vuelos: 6
+Nacionalidad: Malta, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Marshall Islands, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Marshall Islands, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Marshall Islands, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Marshall Islands, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Marshall Islands, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Marshall Islands, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Marshall Islands, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Marshall Islands, Año: 2022, Mes: 8, Vuelos: 6
+Nacionalidad: Martinique, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Martinique, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Martinique, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Martinique, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Martinique, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Mauritania, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Mauritania, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Mauritania, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Mauritania, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Mauritania, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Mauritania, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Mauritania, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: Mauritius, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Mauritius, Año: 2022, Mes: 2, Vuelos: 6
+Nacionalidad: Mauritius, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Mauritius, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Mauritius, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Mauritius, Año: 2022, Mes: 6, Vuelos: 8
+Nacionalidad: Mauritius, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Mauritius, Año: 2022, Mes: 8, Vuelos: 10
+Nacionalidad: Mauritius, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Mauritius, Año: 2022, Mes: 10, Vuelos: 6
+Nacionalidad: Mauritius, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Mauritius, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: Mayotte, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Mayotte, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Mayotte, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Mayotte, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Mayotte, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Mayotte, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Mayotte, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Mexico, Año: 2022, Mes: 1, Vuelos: 66
+Nacionalidad: Mexico, Año: 2022, Mes: 2, Vuelos: 46
+Nacionalidad: Mexico, Año: 2022, Mes: 3, Vuelos: 51
+Nacionalidad: Mexico, Año: 2022, Mes: 4, Vuelos: 40
+Nacionalidad: Mexico, Año: 2022, Mes: 5, Vuelos: 54
+Nacionalidad: Mexico, Año: 2022, Mes: 6, Vuelos: 54
+Nacionalidad: Mexico, Año: 2022, Mes: 7, Vuelos: 49
+Nacionalidad: Mexico, Año: 2022, Mes: 8, Vuelos: 53
+Nacionalidad: Mexico, Año: 2022, Mes: 9, Vuelos: 55
+Nacionalidad: Mexico, Año: 2022, Mes: 10, Vuelos: 63
+Nacionalidad: Mexico, Año: 2022, Mes: 11, Vuelos: 49
+Nacionalidad: Mexico, Año: 2022, Mes: 12, Vuelos: 54
+Nacionalidad: Micronesia, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Micronesia, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Micronesia, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Micronesia, Año: 2022, Mes: 4, Vuelos: 6
+Nacionalidad: Micronesia, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Micronesia, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Micronesia, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: Micronesia, Año: 2022, Mes: 9, Vuelos: 7
+Nacionalidad: Micronesia, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Micronesia, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Micronesia, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: Moldova, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Moldova, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Moldova, Año: 2022, Mes: 3, Vuelos: 7
+Nacionalidad: Moldova, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Moldova, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Moldova, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Moldova, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Moldova, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Moldova, Año: 2022, Mes: 9, Vuelos: 7
+Nacionalidad: Moldova, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Moldova, Año: 2022, Mes: 11, Vuelos: 6
+Nacionalidad: Moldova, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Monaco, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Monaco, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Monaco, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Monaco, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Mongolia, Año: 2022, Mes: 1, Vuelos: 22
+Nacionalidad: Mongolia, Año: 2022, Mes: 2, Vuelos: 10
+Nacionalidad: Mongolia, Año: 2022, Mes: 3, Vuelos: 20
+Nacionalidad: Mongolia, Año: 2022, Mes: 4, Vuelos: 16
+Nacionalidad: Mongolia, Año: 2022, Mes: 5, Vuelos: 21
+Nacionalidad: Mongolia, Año: 2022, Mes: 6, Vuelos: 17
+Nacionalidad: Mongolia, Año: 2022, Mes: 7, Vuelos: 23
+Nacionalidad: Mongolia, Año: 2022, Mes: 8, Vuelos: 25
+Nacionalidad: Mongolia, Año: 2022, Mes: 9, Vuelos: 19
+Nacionalidad: Mongolia, Año: 2022, Mes: 10, Vuelos: 31
+Nacionalidad: Mongolia, Año: 2022, Mes: 11, Vuelos: 16
+Nacionalidad: Mongolia, Año: 2022, Mes: 12, Vuelos: 12
+Nacionalidad: Montenegro, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Montenegro, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Montenegro, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Montenegro, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Montenegro, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Montenegro, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Montenegro, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Montenegro, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Montenegro, Año: 2022, Mes: 9, Vuelos: 5
+Nacionalidad: Montenegro, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Montenegro, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Montenegro, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Montserrat, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Montserrat, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Montserrat, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Montserrat, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Montserrat, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Montserrat, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Morocco, Año: 2022, Mes: 1, Vuelos: 17
+Nacionalidad: Morocco, Año: 2022, Mes: 2, Vuelos: 19
+Nacionalidad: Morocco, Año: 2022, Mes: 3, Vuelos: 23
+Nacionalidad: Morocco, Año: 2022, Mes: 4, Vuelos: 20
+Nacionalidad: Morocco, Año: 2022, Mes: 5, Vuelos: 23
+Nacionalidad: Morocco, Año: 2022, Mes: 6, Vuelos: 19
+Nacionalidad: Morocco, Año: 2022, Mes: 7, Vuelos: 26
+Nacionalidad: Morocco, Año: 2022, Mes: 8, Vuelos: 21
+Nacionalidad: Morocco, Año: 2022, Mes: 9, Vuelos: 19
+Nacionalidad: Morocco, Año: 2022, Mes: 10, Vuelos: 25
+Nacionalidad: Morocco, Año: 2022, Mes: 11, Vuelos: 12
+Nacionalidad: Morocco, Año: 2022, Mes: 12, Vuelos: 25
+Nacionalidad: Mozambique, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Mozambique, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Mozambique, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Mozambique, Año: 2022, Mes: 4, Vuelos: 5
+Nacionalidad: Mozambique, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Mozambique, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Mozambique, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Mozambique, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Mozambique, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Mozambique, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Mozambique, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Mozambique, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Myanmar, Año: 2022, Mes: 1, Vuelos: 8
+Nacionalidad: Myanmar, Año: 2022, Mes: 2, Vuelos: 6
+Nacionalidad: Myanmar, Año: 2022, Mes: 3, Vuelos: 9
+Nacionalidad: Myanmar, Año: 2022, Mes: 4, Vuelos: 7
+Nacionalidad: Myanmar, Año: 2022, Mes: 5, Vuelos: 11
+Nacionalidad: Myanmar, Año: 2022, Mes: 6, Vuelos: 8
+Nacionalidad: Myanmar, Año: 2022, Mes: 7, Vuelos: 9
+Nacionalidad: Myanmar, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Myanmar, Año: 2022, Mes: 9, Vuelos: 5
+Nacionalidad: Myanmar, Año: 2022, Mes: 10, Vuelos: 10
+Nacionalidad: Myanmar, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Myanmar, Año: 2022, Mes: 12, Vuelos: 9
+Nacionalidad: Namibia, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Namibia, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Namibia, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Namibia, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Namibia, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Namibia, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Namibia, Año: 2022, Mes: 8, Vuelos: 5
+Nacionalidad: Namibia, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Namibia, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Namibia, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Namibia, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Nauru, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Nauru, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Nauru, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Nauru, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Nepal, Año: 2022, Mes: 1, Vuelos: 10
+Nacionalidad: Nepal, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Nepal, Año: 2022, Mes: 3, Vuelos: 11
+Nacionalidad: Nepal, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Nepal, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Nepal, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Nepal, Año: 2022, Mes: 7, Vuelos: 7
+Nacionalidad: Nepal, Año: 2022, Mes: 8, Vuelos: 8
+Nacionalidad: Nepal, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Nepal, Año: 2022, Mes: 10, Vuelos: 9
+Nacionalidad: Nepal, Año: 2022, Mes: 11, Vuelos: 5
+Nacionalidad: Nepal, Año: 2022, Mes: 12, Vuelos: 8
+Nacionalidad: Netherlands, Año: 2022, Mes: 1, Vuelos: 24
+Nacionalidad: Netherlands, Año: 2022, Mes: 2, Vuelos: 9
+Nacionalidad: Netherlands, Año: 2022, Mes: 3, Vuelos: 26
+Nacionalidad: Netherlands, Año: 2022, Mes: 4, Vuelos: 19
+Nacionalidad: Netherlands, Año: 2022, Mes: 5, Vuelos: 28
+Nacionalidad: Netherlands, Año: 2022, Mes: 6, Vuelos: 16
+Nacionalidad: Netherlands, Año: 2022, Mes: 7, Vuelos: 21
+Nacionalidad: Netherlands, Año: 2022, Mes: 8, Vuelos: 22
+Nacionalidad: Netherlands, Año: 2022, Mes: 9, Vuelos: 11
+Nacionalidad: Netherlands, Año: 2022, Mes: 10, Vuelos: 18
+Nacionalidad: Netherlands, Año: 2022, Mes: 11, Vuelos: 21
+Nacionalidad: Netherlands, Año: 2022, Mes: 12, Vuelos: 13
+Nacionalidad: New Caledonia, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: New Caledonia, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: New Caledonia, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: New Caledonia, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: New Caledonia, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: New Caledonia, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: New Caledonia, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: New Caledonia, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: New Caledonia, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: New Caledonia, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: New Zealand, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: New Zealand, Año: 2022, Mes: 2, Vuelos: 13
+Nacionalidad: New Zealand, Año: 2022, Mes: 3, Vuelos: 14
+Nacionalidad: New Zealand, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: New Zealand, Año: 2022, Mes: 5, Vuelos: 10
+Nacionalidad: New Zealand, Año: 2022, Mes: 6, Vuelos: 10
+Nacionalidad: New Zealand, Año: 2022, Mes: 7, Vuelos: 9
+Nacionalidad: New Zealand, Año: 2022, Mes: 8, Vuelos: 10
+Nacionalidad: New Zealand, Año: 2022, Mes: 9, Vuelos: 11
+Nacionalidad: New Zealand, Año: 2022, Mes: 10, Vuelos: 11
+Nacionalidad: New Zealand, Año: 2022, Mes: 11, Vuelos: 8
+Nacionalidad: New Zealand, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Nicaragua, Año: 2022, Mes: 1, Vuelos: 9
+Nacionalidad: Nicaragua, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Nicaragua, Año: 2022, Mes: 3, Vuelos: 9
+Nacionalidad: Nicaragua, Año: 2022, Mes: 4, Vuelos: 11
+Nacionalidad: Nicaragua, Año: 2022, Mes: 5, Vuelos: 10
+Nacionalidad: Nicaragua, Año: 2022, Mes: 6, Vuelos: 16
+Nacionalidad: Nicaragua, Año: 2022, Mes: 7, Vuelos: 12
+Nacionalidad: Nicaragua, Año: 2022, Mes: 8, Vuelos: 13
+Nacionalidad: Nicaragua, Año: 2022, Mes: 9, Vuelos: 11
+Nacionalidad: Nicaragua, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Nicaragua, Año: 2022, Mes: 11, Vuelos: 13
+Nacionalidad: Nicaragua, Año: 2022, Mes: 12, Vuelos: 8
+Nacionalidad: Niger, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Niger, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Niger, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Niger, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Niger, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Niger, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Niger, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Niger, Año: 2022, Mes: 8, Vuelos: 6
+Nacionalidad: Niger, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Niger, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Niger, Año: 2022, Mes: 11, Vuelos: 5
+Nacionalidad: Niger, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: Nigeria, Año: 2022, Mes: 1, Vuelos: 50
+Nacionalidad: Nigeria, Año: 2022, Mes: 2, Vuelos: 42
+Nacionalidad: Nigeria, Año: 2022, Mes: 3, Vuelos: 34
+Nacionalidad: Nigeria, Año: 2022, Mes: 4, Vuelos: 44
+Nacionalidad: Nigeria, Año: 2022, Mes: 5, Vuelos: 42
+Nacionalidad: Nigeria, Año: 2022, Mes: 6, Vuelos: 42
+Nacionalidad: Nigeria, Año: 2022, Mes: 7, Vuelos: 47
+Nacionalidad: Nigeria, Año: 2022, Mes: 8, Vuelos: 40
+Nacionalidad: Nigeria, Año: 2022, Mes: 9, Vuelos: 57
+Nacionalidad: Nigeria, Año: 2022, Mes: 10, Vuelos: 39
+Nacionalidad: Nigeria, Año: 2022, Mes: 11, Vuelos: 58
+Nacionalidad: Nigeria, Año: 2022, Mes: 12, Vuelos: 39
+Nacionalidad: Niue, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Niue, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: North Korea, Año: 2022, Mes: 1, Vuelos: 13
+Nacionalidad: North Korea, Año: 2022, Mes: 2, Vuelos: 11
+Nacionalidad: North Korea, Año: 2022, Mes: 3, Vuelos: 10
+Nacionalidad: North Korea, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: North Korea, Año: 2022, Mes: 5, Vuelos: 9
+Nacionalidad: North Korea, Año: 2022, Mes: 6, Vuelos: 9
+Nacionalidad: North Korea, Año: 2022, Mes: 7, Vuelos: 8
+Nacionalidad: North Korea, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: North Korea, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: North Korea, Año: 2022, Mes: 10, Vuelos: 14
+Nacionalidad: North Korea, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: North Korea, Año: 2022, Mes: 12, Vuelos: 8
+Nacionalidad: Northern Mariana Islands, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Northern Mariana Islands, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Norway, Año: 2022, Mes: 1, Vuelos: 25
+Nacionalidad: Norway, Año: 2022, Mes: 2, Vuelos: 26
+Nacionalidad: Norway, Año: 2022, Mes: 3, Vuelos: 17
+Nacionalidad: Norway, Año: 2022, Mes: 4, Vuelos: 27
+Nacionalidad: Norway, Año: 2022, Mes: 5, Vuelos: 18
+Nacionalidad: Norway, Año: 2022, Mes: 6, Vuelos: 23
+Nacionalidad: Norway, Año: 2022, Mes: 7, Vuelos: 19
+Nacionalidad: Norway, Año: 2022, Mes: 8, Vuelos: 27
+Nacionalidad: Norway, Año: 2022, Mes: 9, Vuelos: 22
+Nacionalidad: Norway, Año: 2022, Mes: 10, Vuelos: 25
+Nacionalidad: Norway, Año: 2022, Mes: 11, Vuelos: 21
+Nacionalidad: Norway, Año: 2022, Mes: 12, Vuelos: 21
+Nacionalidad: Oman, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Oman, Año: 2022, Mes: 3, Vuelos: 4
+Nacionalidad: Oman, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Oman, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Oman, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Oman, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Oman, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Oman, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Oman, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Oman, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Pakistan, Año: 2022, Mes: 1, Vuelos: 31
+Nacionalidad: Pakistan, Año: 2022, Mes: 2, Vuelos: 21
+Nacionalidad: Pakistan, Año: 2022, Mes: 3, Vuelos: 31
+Nacionalidad: Pakistan, Año: 2022, Mes: 4, Vuelos: 19
+Nacionalidad: Pakistan, Año: 2022, Mes: 5, Vuelos: 14
+Nacionalidad: Pakistan, Año: 2022, Mes: 6, Vuelos: 23
+Nacionalidad: Pakistan, Año: 2022, Mes: 7, Vuelos: 27
+Nacionalidad: Pakistan, Año: 2022, Mes: 8, Vuelos: 29
+Nacionalidad: Pakistan, Año: 2022, Mes: 9, Vuelos: 34
+Nacionalidad: Pakistan, Año: 2022, Mes: 10, Vuelos: 26
+Nacionalidad: Pakistan, Año: 2022, Mes: 11, Vuelos: 34
+Nacionalidad: Pakistan, Año: 2022, Mes: 12, Vuelos: 27
+Nacionalidad: Palau, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Palau, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Palau, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Palau, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Palau, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Palau, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Palau, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 1, Vuelos: 22
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 2, Vuelos: 23
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 3, Vuelos: 19
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 4, Vuelos: 23
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 5, Vuelos: 16
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 6, Vuelos: 17
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 7, Vuelos: 20
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 8, Vuelos: 21
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 9, Vuelos: 18
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 10, Vuelos: 22
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 11, Vuelos: 23
+Nacionalidad: Palestinian Territory, Año: 2022, Mes: 12, Vuelos: 23
+Nacionalidad: Panama, Año: 2022, Mes: 1, Vuelos: 14
+Nacionalidad: Panama, Año: 2022, Mes: 2, Vuelos: 11
+Nacionalidad: Panama, Año: 2022, Mes: 3, Vuelos: 13
+Nacionalidad: Panama, Año: 2022, Mes: 4, Vuelos: 13
+Nacionalidad: Panama, Año: 2022, Mes: 5, Vuelos: 12
+Nacionalidad: Panama, Año: 2022, Mes: 6, Vuelos: 12
+Nacionalidad: Panama, Año: 2022, Mes: 7, Vuelos: 7
+Nacionalidad: Panama, Año: 2022, Mes: 8, Vuelos: 13
+Nacionalidad: Panama, Año: 2022, Mes: 9, Vuelos: 14
+Nacionalidad: Panama, Año: 2022, Mes: 10, Vuelos: 9
+Nacionalidad: Panama, Año: 2022, Mes: 11, Vuelos: 13
+Nacionalidad: Panama, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 3, Vuelos: 7
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 11, Vuelos: 5
+Nacionalidad: Papua New Guinea, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: Paraguay, Año: 2022, Mes: 1, Vuelos: 7
+Nacionalidad: Paraguay, Año: 2022, Mes: 2, Vuelos: 7
+Nacionalidad: Paraguay, Año: 2022, Mes: 3, Vuelos: 13
+Nacionalidad: Paraguay, Año: 2022, Mes: 4, Vuelos: 9
+Nacionalidad: Paraguay, Año: 2022, Mes: 5, Vuelos: 12
+Nacionalidad: Paraguay, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Paraguay, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Paraguay, Año: 2022, Mes: 8, Vuelos: 11
+Nacionalidad: Paraguay, Año: 2022, Mes: 9, Vuelos: 5
+Nacionalidad: Paraguay, Año: 2022, Mes: 10, Vuelos: 4
+Nacionalidad: Paraguay, Año: 2022, Mes: 11, Vuelos: 8
+Nacionalidad: Paraguay, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Peru, Año: 2022, Mes: 1, Vuelos: 79
+Nacionalidad: Peru, Año: 2022, Mes: 2, Vuelos: 53
+Nacionalidad: Peru, Año: 2022, Mes: 3, Vuelos: 72
+Nacionalidad: Peru, Año: 2022, Mes: 4, Vuelos: 69
+Nacionalidad: Peru, Año: 2022, Mes: 5, Vuelos: 82
+Nacionalidad: Peru, Año: 2022, Mes: 6, Vuelos: 74
+Nacionalidad: Peru, Año: 2022, Mes: 7, Vuelos: 65
+Nacionalidad: Peru, Año: 2022, Mes: 8, Vuelos: 80
+Nacionalidad: Peru, Año: 2022, Mes: 9, Vuelos: 83
+Nacionalidad: Peru, Año: 2022, Mes: 10, Vuelos: 82
+Nacionalidad: Peru, Año: 2022, Mes: 11, Vuelos: 87
+Nacionalidad: Peru, Año: 2022, Mes: 12, Vuelos: 85
+Nacionalidad: Philippines, Año: 2022, Mes: 1, Vuelos: 273
+Nacionalidad: Philippines, Año: 2022, Mes: 2, Vuelos: 226
+Nacionalidad: Philippines, Año: 2022, Mes: 3, Vuelos: 272
+Nacionalidad: Philippines, Año: 2022, Mes: 4, Vuelos: 232
+Nacionalidad: Philippines, Año: 2022, Mes: 5, Vuelos: 258
+Nacionalidad: Philippines, Año: 2022, Mes: 6, Vuelos: 262
+Nacionalidad: Philippines, Año: 2022, Mes: 7, Vuelos: 270
+Nacionalidad: Philippines, Año: 2022, Mes: 8, Vuelos: 264
+Nacionalidad: Philippines, Año: 2022, Mes: 9, Vuelos: 274
+Nacionalidad: Philippines, Año: 2022, Mes: 10, Vuelos: 275
+Nacionalidad: Philippines, Año: 2022, Mes: 11, Vuelos: 292
+Nacionalidad: Philippines, Año: 2022, Mes: 12, Vuelos: 259
+Nacionalidad: Pitcairn, Año: 2022, Mes: 10, Vuelos: 2
+Nacionalidad: Poland, Año: 2022, Mes: 1, Vuelos: 165
+Nacionalidad: Poland, Año: 2022, Mes: 2, Vuelos: 149
+Nacionalidad: Poland, Año: 2022, Mes: 3, Vuelos: 151
+Nacionalidad: Poland, Año: 2022, Mes: 4, Vuelos: 161
+Nacionalidad: Poland, Año: 2022, Mes: 5, Vuelos: 180
+Nacionalidad: Poland, Año: 2022, Mes: 6, Vuelos: 158
+Nacionalidad: Poland, Año: 2022, Mes: 7, Vuelos: 174
+Nacionalidad: Poland, Año: 2022, Mes: 8, Vuelos: 169
+Nacionalidad: Poland, Año: 2022, Mes: 9, Vuelos: 175
+Nacionalidad: Poland, Año: 2022, Mes: 10, Vuelos: 149
+Nacionalidad: Poland, Año: 2022, Mes: 11, Vuelos: 175
+Nacionalidad: Poland, Año: 2022, Mes: 12, Vuelos: 163
+Nacionalidad: Portugal, Año: 2022, Mes: 1, Vuelos: 159
+Nacionalidad: Portugal, Año: 2022, Mes: 2, Vuelos: 140
+Nacionalidad: Portugal, Año: 2022, Mes: 3, Vuelos: 192
+Nacionalidad: Portugal, Año: 2022, Mes: 4, Vuelos: 158
+Nacionalidad: Portugal, Año: 2022, Mes: 5, Vuelos: 171
+Nacionalidad: Portugal, Año: 2022, Mes: 6, Vuelos: 179
+Nacionalidad: Portugal, Año: 2022, Mes: 7, Vuelos: 172
+Nacionalidad: Portugal, Año: 2022, Mes: 8, Vuelos: 183
+Nacionalidad: Portugal, Año: 2022, Mes: 9, Vuelos: 158
+Nacionalidad: Portugal, Año: 2022, Mes: 10, Vuelos: 161
+Nacionalidad: Portugal, Año: 2022, Mes: 11, Vuelos: 145
+Nacionalidad: Portugal, Año: 2022, Mes: 12, Vuelos: 181
+Nacionalidad: Puerto Rico, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Puerto Rico, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Puerto Rico, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Puerto Rico, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Puerto Rico, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Puerto Rico, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Puerto Rico, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Puerto Rico, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Qatar, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Qatar, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Qatar, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Qatar, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Qatar, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Qatar, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Republic of the Congo, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Reunion, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Reunion, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Reunion, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Reunion, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Reunion, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Reunion, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Reunion, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Reunion, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Reunion, Año: 2022, Mes: 10, Vuelos: 4
+Nacionalidad: Reunion, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Romania, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Russia, Año: 2022, Mes: 1, Vuelos: 316
+Nacionalidad: Russia, Año: 2022, Mes: 2, Vuelos: 246
+Nacionalidad: Russia, Año: 2022, Mes: 3, Vuelos: 314
+Nacionalidad: Russia, Año: 2022, Mes: 4, Vuelos: 267
+Nacionalidad: Russia, Año: 2022, Mes: 5, Vuelos: 308
+Nacionalidad: Russia, Año: 2022, Mes: 6, Vuelos: 293
+Nacionalidad: Russia, Año: 2022, Mes: 7, Vuelos: 319
+Nacionalidad: Russia, Año: 2022, Mes: 8, Vuelos: 302
+Nacionalidad: Russia, Año: 2022, Mes: 9, Vuelos: 271
+Nacionalidad: Russia, Año: 2022, Mes: 10, Vuelos: 291
+Nacionalidad: Russia, Año: 2022, Mes: 11, Vuelos: 275
+Nacionalidad: Russia, Año: 2022, Mes: 12, Vuelos: 256
+Nacionalidad: Rwanda, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Rwanda, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Rwanda, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Rwanda, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Rwanda, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Saint Helena, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Saint Kitts and Nevis, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Saint Kitts and Nevis, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Saint Kitts and Nevis, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Saint Kitts and Nevis, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Saint Kitts and Nevis, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Saint Kitts and Nevis, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 5, Vuelos: 3
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Saint Lucia, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Saint Martin, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Saint Martin, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Saint Pierre and Miquelon, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Saint Pierre and Miquelon, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Saint Vincent and the Grenadines, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Saint Vincent and the Grenadines, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Saint Vincent and the Grenadines, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Saint Vincent and the Grenadines, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Saint Vincent and the Grenadines, Año: 2022, Mes: 9, Vuelos: 3
+Nacionalidad: Saint Vincent and the Grenadines, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Samoa, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Samoa, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Samoa, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Samoa, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Samoa, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Samoa, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Samoa, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: San Marino, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: San Marino, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: San Marino, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: San Marino, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Sao Tome and Principe, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 4, Vuelos: 4
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 7, Vuelos: 10
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 9, Vuelos: 13
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 10, Vuelos: 10
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Saudi Arabia, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: Senegal, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Senegal, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Senegal, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Senegal, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Senegal, Año: 2022, Mes: 5, Vuelos: 12
+Nacionalidad: Senegal, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Senegal, Año: 2022, Mes: 7, Vuelos: 5
+Nacionalidad: Senegal, Año: 2022, Mes: 8, Vuelos: 5
+Nacionalidad: Senegal, Año: 2022, Mes: 9, Vuelos: 5
+Nacionalidad: Senegal, Año: 2022, Mes: 10, Vuelos: 4
+Nacionalidad: Senegal, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Senegal, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Serbia, Año: 2022, Mes: 1, Vuelos: 29
+Nacionalidad: Serbia, Año: 2022, Mes: 2, Vuelos: 19
+Nacionalidad: Serbia, Año: 2022, Mes: 3, Vuelos: 27
+Nacionalidad: Serbia, Año: 2022, Mes: 4, Vuelos: 23
+Nacionalidad: Serbia, Año: 2022, Mes: 5, Vuelos: 25
+Nacionalidad: Serbia, Año: 2022, Mes: 6, Vuelos: 30
+Nacionalidad: Serbia, Año: 2022, Mes: 7, Vuelos: 35
+Nacionalidad: Serbia, Año: 2022, Mes: 8, Vuelos: 21
+Nacionalidad: Serbia, Año: 2022, Mes: 9, Vuelos: 30
+Nacionalidad: Serbia, Año: 2022, Mes: 10, Vuelos: 29
+Nacionalidad: Serbia, Año: 2022, Mes: 11, Vuelos: 21
+Nacionalidad: Serbia, Año: 2022, Mes: 12, Vuelos: 27
+Nacionalidad: Seychelles, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Seychelles, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Seychelles, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Seychelles, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Seychelles, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 1, Vuelos: 4
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 2, Vuelos: 8
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 4, Vuelos: 8
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Sierra Leone, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Singapore, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Sint Maarten, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Slovakia, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Slovakia, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Slovakia, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Slovakia, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Slovenia, Año: 2022, Mes: 1, Vuelos: 20
+Nacionalidad: Slovenia, Año: 2022, Mes: 2, Vuelos: 21
+Nacionalidad: Slovenia, Año: 2022, Mes: 3, Vuelos: 27
+Nacionalidad: Slovenia, Año: 2022, Mes: 4, Vuelos: 15
+Nacionalidad: Slovenia, Año: 2022, Mes: 5, Vuelos: 22
+Nacionalidad: Slovenia, Año: 2022, Mes: 6, Vuelos: 17
+Nacionalidad: Slovenia, Año: 2022, Mes: 7, Vuelos: 18
+Nacionalidad: Slovenia, Año: 2022, Mes: 8, Vuelos: 25
+Nacionalidad: Slovenia, Año: 2022, Mes: 9, Vuelos: 23
+Nacionalidad: Slovenia, Año: 2022, Mes: 10, Vuelos: 22
+Nacionalidad: Slovenia, Año: 2022, Mes: 11, Vuelos: 20
+Nacionalidad: Slovenia, Año: 2022, Mes: 12, Vuelos: 17
+Nacionalidad: Solomon Islands, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Solomon Islands, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Solomon Islands, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Solomon Islands, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Solomon Islands, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Solomon Islands, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Solomon Islands, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Solomon Islands, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Somalia, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Somalia, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Somalia, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Somalia, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Somalia, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Somalia, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Somalia, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Somalia, Año: 2022, Mes: 8, Vuelos: 5
+Nacionalidad: Somalia, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Somalia, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Somalia, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Somalia, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: South Africa, Año: 2022, Mes: 1, Vuelos: 21
+Nacionalidad: South Africa, Año: 2022, Mes: 2, Vuelos: 23
+Nacionalidad: South Africa, Año: 2022, Mes: 3, Vuelos: 35
+Nacionalidad: South Africa, Año: 2022, Mes: 4, Vuelos: 28
+Nacionalidad: South Africa, Año: 2022, Mes: 5, Vuelos: 37
+Nacionalidad: South Africa, Año: 2022, Mes: 6, Vuelos: 35
+Nacionalidad: South Africa, Año: 2022, Mes: 7, Vuelos: 29
+Nacionalidad: South Africa, Año: 2022, Mes: 8, Vuelos: 34
+Nacionalidad: South Africa, Año: 2022, Mes: 9, Vuelos: 29
+Nacionalidad: South Africa, Año: 2022, Mes: 10, Vuelos: 37
+Nacionalidad: South Africa, Año: 2022, Mes: 11, Vuelos: 33
+Nacionalidad: South Africa, Año: 2022, Mes: 12, Vuelos: 27
+Nacionalidad: South Georgia and the South Sandwich Islands, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: South Georgia and the South Sandwich Islands, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: South Korea, Año: 2022, Mes: 1, Vuelos: 17
+Nacionalidad: South Korea, Año: 2022, Mes: 2, Vuelos: 15
+Nacionalidad: South Korea, Año: 2022, Mes: 3, Vuelos: 22
+Nacionalidad: South Korea, Año: 2022, Mes: 4, Vuelos: 15
+Nacionalidad: South Korea, Año: 2022, Mes: 5, Vuelos: 15
+Nacionalidad: South Korea, Año: 2022, Mes: 6, Vuelos: 13
+Nacionalidad: South Korea, Año: 2022, Mes: 7, Vuelos: 11
+Nacionalidad: South Korea, Año: 2022, Mes: 8, Vuelos: 21
+Nacionalidad: South Korea, Año: 2022, Mes: 9, Vuelos: 17
+Nacionalidad: South Korea, Año: 2022, Mes: 10, Vuelos: 13
+Nacionalidad: South Korea, Año: 2022, Mes: 11, Vuelos: 22
+Nacionalidad: South Korea, Año: 2022, Mes: 12, Vuelos: 12
+Nacionalidad: South Sudan, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: South Sudan, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: South Sudan, Año: 2022, Mes: 5, Vuelos: 3
+Nacionalidad: South Sudan, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: South Sudan, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: South Sudan, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: South Sudan, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Spain, Año: 2022, Mes: 1, Vuelos: 12
+Nacionalidad: Spain, Año: 2022, Mes: 2, Vuelos: 6
+Nacionalidad: Spain, Año: 2022, Mes: 3, Vuelos: 17
+Nacionalidad: Spain, Año: 2022, Mes: 4, Vuelos: 18
+Nacionalidad: Spain, Año: 2022, Mes: 5, Vuelos: 18
+Nacionalidad: Spain, Año: 2022, Mes: 6, Vuelos: 9
+Nacionalidad: Spain, Año: 2022, Mes: 7, Vuelos: 13
+Nacionalidad: Spain, Año: 2022, Mes: 8, Vuelos: 11
+Nacionalidad: Spain, Año: 2022, Mes: 9, Vuelos: 14
+Nacionalidad: Spain, Año: 2022, Mes: 10, Vuelos: 15
+Nacionalidad: Spain, Año: 2022, Mes: 11, Vuelos: 12
+Nacionalidad: Spain, Año: 2022, Mes: 12, Vuelos: 10
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 1, Vuelos: 5
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 3, Vuelos: 6
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 4, Vuelos: 9
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 5, Vuelos: 10
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 6, Vuelos: 7
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 8, Vuelos: 5
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 9, Vuelos: 4
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 10, Vuelos: 8
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Sri Lanka, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Sudan, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Sudan, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Sudan, Año: 2022, Mes: 3, Vuelos: 7
+Nacionalidad: Sudan, Año: 2022, Mes: 4, Vuelos: 6
+Nacionalidad: Sudan, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Sudan, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Sudan, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Sudan, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Sudan, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Sudan, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Sudan, Año: 2022, Mes: 11, Vuelos: 5
+Nacionalidad: Sudan, Año: 2022, Mes: 12, Vuelos: 3
+Nacionalidad: Suriname, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Suriname, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Suriname, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Suriname, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Suriname, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Suriname, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Suriname, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Suriname, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Suriname, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Suriname, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Svalbard and Jan Mayen, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Swaziland, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Swaziland, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Swaziland, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Swaziland, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Swaziland, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Swaziland, Año: 2022, Mes: 10, Vuelos: 1
+Nacionalidad: Swaziland, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Swaziland, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Sweden, Año: 2022, Mes: 1, Vuelos: 140
+Nacionalidad: Sweden, Año: 2022, Mes: 2, Vuelos: 107
+Nacionalidad: Sweden, Año: 2022, Mes: 3, Vuelos: 123
+Nacionalidad: Sweden, Año: 2022, Mes: 4, Vuelos: 122
+Nacionalidad: Sweden, Año: 2022, Mes: 5, Vuelos: 137
+Nacionalidad: Sweden, Año: 2022, Mes: 6, Vuelos: 102
+Nacionalidad: Sweden, Año: 2022, Mes: 7, Vuelos: 144
+Nacionalidad: Sweden, Año: 2022, Mes: 8, Vuelos: 107
+Nacionalidad: Sweden, Año: 2022, Mes: 9, Vuelos: 118
+Nacionalidad: Sweden, Año: 2022, Mes: 10, Vuelos: 119
+Nacionalidad: Sweden, Año: 2022, Mes: 11, Vuelos: 124
+Nacionalidad: Sweden, Año: 2022, Mes: 12, Vuelos: 100
+Nacionalidad: Switzerland, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Switzerland, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Switzerland, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Switzerland, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Switzerland, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: Switzerland, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Switzerland, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Switzerland, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: Switzerland, Año: 2022, Mes: 10, Vuelos: 4
+Nacionalidad: Switzerland, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Syria, Año: 2022, Mes: 1, Vuelos: 21
+Nacionalidad: Syria, Año: 2022, Mes: 2, Vuelos: 16
+Nacionalidad: Syria, Año: 2022, Mes: 3, Vuelos: 23
+Nacionalidad: Syria, Año: 2022, Mes: 4, Vuelos: 13
+Nacionalidad: Syria, Año: 2022, Mes: 5, Vuelos: 18
+Nacionalidad: Syria, Año: 2022, Mes: 6, Vuelos: 19
+Nacionalidad: Syria, Año: 2022, Mes: 7, Vuelos: 18
+Nacionalidad: Syria, Año: 2022, Mes: 8, Vuelos: 12
+Nacionalidad: Syria, Año: 2022, Mes: 9, Vuelos: 14
+Nacionalidad: Syria, Año: 2022, Mes: 10, Vuelos: 17
+Nacionalidad: Syria, Año: 2022, Mes: 11, Vuelos: 20
+Nacionalidad: Syria, Año: 2022, Mes: 12, Vuelos: 14
+Nacionalidad: Taiwan, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Taiwan, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Taiwan, Año: 2022, Mes: 3, Vuelos: 5
+Nacionalidad: Taiwan, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Taiwan, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Taiwan, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Taiwan, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Taiwan, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Taiwan, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Taiwan, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Tajikistan, Año: 2022, Mes: 1, Vuelos: 3
+Nacionalidad: Tajikistan, Año: 2022, Mes: 2, Vuelos: 8
+Nacionalidad: Tajikistan, Año: 2022, Mes: 3, Vuelos: 11
+Nacionalidad: Tajikistan, Año: 2022, Mes: 4, Vuelos: 10
+Nacionalidad: Tajikistan, Año: 2022, Mes: 5, Vuelos: 4
+Nacionalidad: Tajikistan, Año: 2022, Mes: 6, Vuelos: 6
+Nacionalidad: Tajikistan, Año: 2022, Mes: 7, Vuelos: 6
+Nacionalidad: Tajikistan, Año: 2022, Mes: 8, Vuelos: 10
+Nacionalidad: Tajikistan, Año: 2022, Mes: 9, Vuelos: 8
+Nacionalidad: Tajikistan, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Tajikistan, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: Tajikistan, Año: 2022, Mes: 12, Vuelos: 6
+Nacionalidad: Tanzania, Año: 2022, Mes: 1, Vuelos: 26
+Nacionalidad: Tanzania, Año: 2022, Mes: 2, Vuelos: 21
+Nacionalidad: Tanzania, Año: 2022, Mes: 3, Vuelos: 23
+Nacionalidad: Tanzania, Año: 2022, Mes: 4, Vuelos: 11
+Nacionalidad: Tanzania, Año: 2022, Mes: 5, Vuelos: 25
+Nacionalidad: Tanzania, Año: 2022, Mes: 6, Vuelos: 12
+Nacionalidad: Tanzania, Año: 2022, Mes: 7, Vuelos: 24
+Nacionalidad: Tanzania, Año: 2022, Mes: 8, Vuelos: 19
+Nacionalidad: Tanzania, Año: 2022, Mes: 9, Vuelos: 27
+Nacionalidad: Tanzania, Año: 2022, Mes: 10, Vuelos: 15
+Nacionalidad: Tanzania, Año: 2022, Mes: 11, Vuelos: 17
+Nacionalidad: Tanzania, Año: 2022, Mes: 12, Vuelos: 13
+Nacionalidad: Thailand, Año: 2022, Mes: 1, Vuelos: 84
+Nacionalidad: Thailand, Año: 2022, Mes: 2, Vuelos: 72
+Nacionalidad: Thailand, Año: 2022, Mes: 3, Vuelos: 71
+Nacionalidad: Thailand, Año: 2022, Mes: 4, Vuelos: 66
+Nacionalidad: Thailand, Año: 2022, Mes: 5, Vuelos: 73
+Nacionalidad: Thailand, Año: 2022, Mes: 6, Vuelos: 70
+Nacionalidad: Thailand, Año: 2022, Mes: 7, Vuelos: 70
+Nacionalidad: Thailand, Año: 2022, Mes: 8, Vuelos: 76
+Nacionalidad: Thailand, Año: 2022, Mes: 9, Vuelos: 61
+Nacionalidad: Thailand, Año: 2022, Mes: 10, Vuelos: 73
+Nacionalidad: Thailand, Año: 2022, Mes: 11, Vuelos: 56
+Nacionalidad: Thailand, Año: 2022, Mes: 12, Vuelos: 85
+Nacionalidad: Togo, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Togo, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Togo, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Togo, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Togo, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Togo, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Togo, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Togo, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Togo, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Togo, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Tokelau, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Tokelau, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Tokelau, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Tokelau, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Tokelau, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Tonga, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Tonga, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Tonga, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Tonga, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Tonga, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 4, Vuelos: 3
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 5, Vuelos: 3
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 8, Vuelos: 2
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Trinidad and Tobago, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Tunisia, Año: 2022, Mes: 1, Vuelos: 15
+Nacionalidad: Tunisia, Año: 2022, Mes: 2, Vuelos: 8
+Nacionalidad: Tunisia, Año: 2022, Mes: 3, Vuelos: 10
+Nacionalidad: Tunisia, Año: 2022, Mes: 4, Vuelos: 10
+Nacionalidad: Tunisia, Año: 2022, Mes: 5, Vuelos: 17
+Nacionalidad: Tunisia, Año: 2022, Mes: 6, Vuelos: 23
+Nacionalidad: Tunisia, Año: 2022, Mes: 7, Vuelos: 8
+Nacionalidad: Tunisia, Año: 2022, Mes: 8, Vuelos: 13
+Nacionalidad: Tunisia, Año: 2022, Mes: 9, Vuelos: 13
+Nacionalidad: Tunisia, Año: 2022, Mes: 10, Vuelos: 17
+Nacionalidad: Tunisia, Año: 2022, Mes: 11, Vuelos: 15
+Nacionalidad: Tunisia, Año: 2022, Mes: 12, Vuelos: 13
+Nacionalidad: Turkey, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Turkey, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Turkey, Año: 2022, Mes: 5, Vuelos: 2
+Nacionalidad: Turkey, Año: 2022, Mes: 6, Vuelos: 1
+Nacionalidad: Turkey, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Turkey, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Turkey, Año: 2022, Mes: 11, Vuelos: 2
+Nacionalidad: Turkey, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 1, Vuelos: 2
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 3, Vuelos: 3
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 5, Vuelos: 3
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 8, Vuelos: 3
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 11, Vuelos: 6
+Nacionalidad: Turkmenistan, Año: 2022, Mes: 12, Vuelos: 5
+Nacionalidad: Tuvalu, Año: 2022, Mes: 6, Vuelos: 3
+Nacionalidad: Tuvalu, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Tuvalu, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: U.S. Virgin Islands, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: U.S. Virgin Islands, Año: 2022, Mes: 12, Vuelos: 1
+Nacionalidad: Uganda, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: Uganda, Año: 2022, Mes: 2, Vuelos: 6
+Nacionalidad: Uganda, Año: 2022, Mes: 3, Vuelos: 8
+Nacionalidad: Uganda, Año: 2022, Mes: 4, Vuelos: 13
+Nacionalidad: Uganda, Año: 2022, Mes: 5, Vuelos: 8
+Nacionalidad: Uganda, Año: 2022, Mes: 6, Vuelos: 12
+Nacionalidad: Uganda, Año: 2022, Mes: 7, Vuelos: 9
+Nacionalidad: Uganda, Año: 2022, Mes: 8, Vuelos: 8
+Nacionalidad: Uganda, Año: 2022, Mes: 9, Vuelos: 18
+Nacionalidad: Uganda, Año: 2022, Mes: 10, Vuelos: 7
+Nacionalidad: Uganda, Año: 2022, Mes: 11, Vuelos: 13
+Nacionalidad: Uganda, Año: 2022, Mes: 12, Vuelos: 10
+Nacionalidad: Ukraine, Año: 2022, Mes: 1, Vuelos: 75
+Nacionalidad: Ukraine, Año: 2022, Mes: 2, Vuelos: 62
+Nacionalidad: Ukraine, Año: 2022, Mes: 3, Vuelos: 73
+Nacionalidad: Ukraine, Año: 2022, Mes: 4, Vuelos: 83
+Nacionalidad: Ukraine, Año: 2022, Mes: 5, Vuelos: 92
+Nacionalidad: Ukraine, Año: 2022, Mes: 6, Vuelos: 79
+Nacionalidad: Ukraine, Año: 2022, Mes: 7, Vuelos: 76
+Nacionalidad: Ukraine, Año: 2022, Mes: 8, Vuelos: 85
+Nacionalidad: Ukraine, Año: 2022, Mes: 9, Vuelos: 87
+Nacionalidad: Ukraine, Año: 2022, Mes: 10, Vuelos: 93
+Nacionalidad: Ukraine, Año: 2022, Mes: 11, Vuelos: 81
+Nacionalidad: Ukraine, Año: 2022, Mes: 12, Vuelos: 77
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 6, Vuelos: 2
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: United Arab Emirates, Año: 2022, Mes: 12, Vuelos: 4
+Nacionalidad: United Kingdom, Año: 2022, Mes: 1, Vuelos: 8
+Nacionalidad: United Kingdom, Año: 2022, Mes: 2, Vuelos: 10
+Nacionalidad: United Kingdom, Año: 2022, Mes: 3, Vuelos: 10
+Nacionalidad: United Kingdom, Año: 2022, Mes: 4, Vuelos: 10
+Nacionalidad: United Kingdom, Año: 2022, Mes: 5, Vuelos: 5
+Nacionalidad: United Kingdom, Año: 2022, Mes: 6, Vuelos: 8
+Nacionalidad: United Kingdom, Año: 2022, Mes: 7, Vuelos: 11
+Nacionalidad: United Kingdom, Año: 2022, Mes: 8, Vuelos: 6
+Nacionalidad: United Kingdom, Año: 2022, Mes: 9, Vuelos: 11
+Nacionalidad: United Kingdom, Año: 2022, Mes: 10, Vuelos: 9
+Nacionalidad: United Kingdom, Año: 2022, Mes: 11, Vuelos: 7
+Nacionalidad: United Kingdom, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: United States, Año: 2022, Mes: 1, Vuelos: 131
+Nacionalidad: United States, Año: 2022, Mes: 2, Vuelos: 104
+Nacionalidad: United States, Año: 2022, Mes: 3, Vuelos: 113
+Nacionalidad: United States, Año: 2022, Mes: 4, Vuelos: 117
+Nacionalidad: United States, Año: 2022, Mes: 5, Vuelos: 99
+Nacionalidad: United States, Año: 2022, Mes: 6, Vuelos: 104
+Nacionalidad: United States, Año: 2022, Mes: 7, Vuelos: 102
+Nacionalidad: United States, Año: 2022, Mes: 8, Vuelos: 117
+Nacionalidad: United States, Año: 2022, Mes: 9, Vuelos: 130
+Nacionalidad: United States, Año: 2022, Mes: 10, Vuelos: 115
+Nacionalidad: United States, Año: 2022, Mes: 11, Vuelos: 83
+Nacionalidad: United States, Año: 2022, Mes: 12, Vuelos: 94
+Nacionalidad: Uruguay, Año: 2022, Mes: 1, Vuelos: 7
+Nacionalidad: Uruguay, Año: 2022, Mes: 2, Vuelos: 4
+Nacionalidad: Uruguay, Año: 2022, Mes: 3, Vuelos: 8
+Nacionalidad: Uruguay, Año: 2022, Mes: 4, Vuelos: 7
+Nacionalidad: Uruguay, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Uruguay, Año: 2022, Mes: 6, Vuelos: 5
+Nacionalidad: Uruguay, Año: 2022, Mes: 7, Vuelos: 4
+Nacionalidad: Uruguay, Año: 2022, Mes: 8, Vuelos: 7
+Nacionalidad: Uruguay, Año: 2022, Mes: 9, Vuelos: 5
+Nacionalidad: Uruguay, Año: 2022, Mes: 10, Vuelos: 6
+Nacionalidad: Uruguay, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Uruguay, Año: 2022, Mes: 12, Vuelos: 7
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 1, Vuelos: 9
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 2, Vuelos: 12
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 3, Vuelos: 8
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 4, Vuelos: 10
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 6, Vuelos: 10
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 7, Vuelos: 11
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 8, Vuelos: 13
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 9, Vuelos: 10
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 10, Vuelos: 14
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 11, Vuelos: 10
+Nacionalidad: Uzbekistan, Año: 2022, Mes: 12, Vuelos: 10
+Nacionalidad: Vanuatu, Año: 2022, Mes: 2, Vuelos: 2
+Nacionalidad: Vanuatu, Año: 2022, Mes: 3, Vuelos: 1
+Nacionalidad: Vanuatu, Año: 2022, Mes: 7, Vuelos: 1
+Nacionalidad: Vanuatu, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Vanuatu, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Vanuatu, Año: 2022, Mes: 11, Vuelos: 1
+Nacionalidad: Venezuela, Año: 2022, Mes: 1, Vuelos: 26
+Nacionalidad: Venezuela, Año: 2022, Mes: 2, Vuelos: 21
+Nacionalidad: Venezuela, Año: 2022, Mes: 3, Vuelos: 26
+Nacionalidad: Venezuela, Año: 2022, Mes: 4, Vuelos: 22
+Nacionalidad: Venezuela, Año: 2022, Mes: 5, Vuelos: 27
+Nacionalidad: Venezuela, Año: 2022, Mes: 6, Vuelos: 16
+Nacionalidad: Venezuela, Año: 2022, Mes: 7, Vuelos: 23
+Nacionalidad: Venezuela, Año: 2022, Mes: 8, Vuelos: 18
+Nacionalidad: Venezuela, Año: 2022, Mes: 9, Vuelos: 16
+Nacionalidad: Venezuela, Año: 2022, Mes: 10, Vuelos: 29
+Nacionalidad: Venezuela, Año: 2022, Mes: 11, Vuelos: 14
+Nacionalidad: Venezuela, Año: 2022, Mes: 12, Vuelos: 22
+Nacionalidad: Vietnam, Año: 2022, Mes: 1, Vuelos: 46
+Nacionalidad: Vietnam, Año: 2022, Mes: 2, Vuelos: 33
+Nacionalidad: Vietnam, Año: 2022, Mes: 3, Vuelos: 43
+Nacionalidad: Vietnam, Año: 2022, Mes: 4, Vuelos: 38
+Nacionalidad: Vietnam, Año: 2022, Mes: 5, Vuelos: 43
+Nacionalidad: Vietnam, Año: 2022, Mes: 6, Vuelos: 35
+Nacionalidad: Vietnam, Año: 2022, Mes: 7, Vuelos: 37
+Nacionalidad: Vietnam, Año: 2022, Mes: 8, Vuelos: 49
+Nacionalidad: Vietnam, Año: 2022, Mes: 9, Vuelos: 31
+Nacionalidad: Vietnam, Año: 2022, Mes: 10, Vuelos: 43
+Nacionalidad: Vietnam, Año: 2022, Mes: 11, Vuelos: 30
+Nacionalidad: Vietnam, Año: 2022, Mes: 12, Vuelos: 33
+Nacionalidad: Wallis and Futuna, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Wallis and Futuna, Año: 2022, Mes: 2, Vuelos: 1
+Nacionalidad: Wallis and Futuna, Año: 2022, Mes: 4, Vuelos: 1
+Nacionalidad: Western Sahara, Año: 2022, Mes: 1, Vuelos: 1
+Nacionalidad: Western Sahara, Año: 2022, Mes: 5, Vuelos: 1
+Nacionalidad: Western Sahara, Año: 2022, Mes: 9, Vuelos: 1
+Nacionalidad: Yemen, Año: 2022, Mes: 1, Vuelos: 23
+Nacionalidad: Yemen, Año: 2022, Mes: 2, Vuelos: 15
+Nacionalidad: Yemen, Año: 2022, Mes: 3, Vuelos: 12
+Nacionalidad: Yemen, Año: 2022, Mes: 4, Vuelos: 25
+Nacionalidad: Yemen, Año: 2022, Mes: 5, Vuelos: 24
+Nacionalidad: Yemen, Año: 2022, Mes: 6, Vuelos: 24
+Nacionalidad: Yemen, Año: 2022, Mes: 7, Vuelos: 14
+Nacionalidad: Yemen, Año: 2022, Mes: 8, Vuelos: 21
+Nacionalidad: Yemen, Año: 2022, Mes: 9, Vuelos: 14
+Nacionalidad: Yemen, Año: 2022, Mes: 10, Vuelos: 27
+Nacionalidad: Yemen, Año: 2022, Mes: 11, Vuelos: 18
+Nacionalidad: Yemen, Año: 2022, Mes: 12, Vuelos: 22
+Nacionalidad: Zambia, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: Zambia, Año: 2022, Mes: 2, Vuelos: 3
+Nacionalidad: Zambia, Año: 2022, Mes: 3, Vuelos: 2
+Nacionalidad: Zambia, Año: 2022, Mes: 4, Vuelos: 2
+Nacionalidad: Zambia, Año: 2022, Mes: 5, Vuelos: 9
+Nacionalidad: Zambia, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Zambia, Año: 2022, Mes: 7, Vuelos: 2
+Nacionalidad: Zambia, Año: 2022, Mes: 8, Vuelos: 1
+Nacionalidad: Zambia, Año: 2022, Mes: 9, Vuelos: 6
+Nacionalidad: Zambia, Año: 2022, Mes: 10, Vuelos: 3
+Nacionalidad: Zambia, Año: 2022, Mes: 11, Vuelos: 3
+Nacionalidad: Zambia, Año: 2022, Mes: 12, Vuelos: 2
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 1, Vuelos: 6
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 2, Vuelos: 5
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 3, Vuelos: 7
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 4, Vuelos: 6
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 5, Vuelos: 7
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 6, Vuelos: 4
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 7, Vuelos: 3
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 8, Vuelos: 4
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 9, Vuelos: 2
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 10, Vuelos: 5
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 11, Vuelos: 4
+Nacionalidad: Zimbabwe, Año: 2022, Mes: 12, Vuelos: 4
+
+=== 4. VUELOS POR PAÍS ===
+País: Venezuela, Bolivarian Republic of, Vuelos: 463
+País: Lao People's Democratic Republic, Vuelos: 98
+País: Saint Kitts and Nevis, Vuelos: 16
+País: Puerto Rico, Vuelos: 96
+País: Antigua and Barbuda, Vuelos: 10
+País: Finland, Vuelos: 200
+País: Sao Tome and Principe, Vuelos: 19
+País: Iran, Islamic Republic of, Vuelos: 495
+País: Martinique, Vuelos: 7
+País: Virgin Islands, British, Vuelos: 14
+País: Rwanda, Vuelos: 38
+País: Bahrain, Vuelos: 10
+País: Eswatini, Vuelos: 12
+País: Northern Mariana Islands, Vuelos: 27
+País: Christmas Island, Vuelos: 6
+País: Gambia, Vuelos: 8
+País: Liberia, Vuelos: 106
+País: Guatemala, Vuelos: 138
+País: Andorra, Vuelos: 6
+País: Saint Barthélemy, Vuelos: 4
+País: New Zealand, Vuelos: 354
+País: Cabo Verde, Vuelos: 74
+País: Korea, Republic of, Vuelos: 210
+País: Angola, Vuelos: 276
+País: Uganda, Vuelos: 101
+País: Nauru, Vuelos: 5
+País: Monaco, Vuelos: 6
+País: Egypt, Vuelos: 160
+País: Cocos (Keeling) Islands, Vuelos: 6
+País: Kyrgyzstan, Vuelos: 21
+País: Mali, Vuelos: 71
+País: Italy, Vuelos: 402
+País: Virgin Islands, U.S., Vuelos: 34
+País: Azerbaijan, Vuelos: 48
+País: Brazil, Vuelos: 2776
+País: Congo, The Democratic Republic of the, Vuelos: 441
+País: Bermuda, Vuelos: 13
+País: Guinea-Bissau, Vuelos: 4
+País: Netherlands, Vuelos: 93
+País: Palau, Vuelos: 3
+País: Greenland, Vuelos: 211
+País: Cameroon, Vuelos: 139
+País: Jordan, Vuelos: 27
+País: Madagascar, Vuelos: 422
+País: Belarus, Vuelos: 42
+País: Marshall Islands, Vuelos: 217
+País: Hong Kong, Vuelos: 24
+País: Cayman Islands, Vuelos: 14
+País: Guadeloupe, Vuelos: 29
+País: Malaysia, Vuelos: 429
+País: Saint Helena, Ascension and Tristan da Cunha, Vuelos: 13
+País: Sri Lanka, Vuelos: 214
+País: Western Sahara, Vuelos: 29
+País: Gibraltar, Vuelos: 3
+País: Indonesia, Vuelos: 1436
+País: Jamaica, Vuelos: 48
+País: Germany, Vuelos: 723
+País: Uzbekistan, Vuelos: 85
+País: Philippines, Vuelos: 479
+País: Cuba, Vuelos: 187
+País: Lithuania, Vuelos: 38
+País: Iceland, Vuelos: 247
+País: Senegal, Vuelos: 96
+País: Saint Martin (French part), Vuelos: 15
+País: Barbados, Vuelos: 2
+País: Turks and Caicos Islands, Vuelos: 34
+País: Guernsey, Vuelos: 9
+País: Kuwait, Vuelos: 12
+País: Hungary, Vuelos: 37
+País: Cyprus, Vuelos: 28
+País: Malawi, Vuelos: 70
+País: Switzerland, Vuelos: 100
+País: United States, Vuelos: 13283
+País: Estonia, Vuelos: 37
+País: Algeria, Vuelos: 265
+País: Aruba, Vuelos: 4
+País: Comoros, Vuelos: 32
+País: Ecuador, Vuelos: 176
+País: Nigeria, Vuelos: 164
+País: Samoa, Vuelos: 25
+País: North Macedonia, Vuelos: 17
+País: El Salvador, Vuelos: 11
+País: Tanzania, United Republic of, Vuelos: 214
+País: Malta, Vuelos: 11
+País: Mongolia, Vuelos: 146
+País: Bahamas, Vuelos: 255
+País: Bosnia and Herzegovina, Vuelos: 35
+País: Ethiopia, Vuelos: 343
+País: Lebanon, Vuelos: 16
+País: Montenegro, Vuelos: 22
+País: Saudi Arabia, Vuelos: 234
+País: Iraq, Vuelos: 83
+País: American Samoa, Vuelos: 29
+País: Chad, Vuelos: 159
+País: Macao, Vuelos: 9
+País: Australia, Vuelos: 3847
+País: Bolivia, Plurinational State of, Vuelos: 229
+País: Mauritius, Vuelos: 16
+País: Belize, Vuelos: 133
+País: United Kingdom, Vuelos: 818
+País: Mexico, Vuelos: 621
+País: Albania, Vuelos: 7
+País: Myanmar, Vuelos: 271
+País: Sierra Leone, Vuelos: 50
+País: Sweden, Vuelos: 367
+País: Honduras, Vuelos: 183
+País: Viet Nam, Vuelos: 218
+País: Falkland Islands (Malvinas), Vuelos: 19
+País: Kenya, Vuelos: 241
+País: Nicaragua, Vuelos: 90
+País: Ukraine, Vuelos: 237
+País: Syrian Arab Republic, Vuelos: 50
+País: Trinidad and Tobago, Vuelos: 13
+País: China, Vuelos: 1673
+País: Argentina, Vuelos: 679
+País: Brunei Darussalam, Vuelos: 2
+País: Fiji, Vuelos: 181
+País: Solomon Islands, Vuelos: 268
+País: Palestine, State of, Vuelos: 20
+País: Réunion, Vuelos: 10
+País: Armenia, Vuelos: 10
+País: Kiribati, Vuelos: 157
+País: Serbia, Vuelos: 24
+País: Peru, Vuelos: 277
+País: Czechia, Vuelos: 93
+País: Libya, Vuelos: 127
+País: British Indian Ocean Territory, Vuelos: 10
+País: Burkina Faso, Vuelos: 156
+País: India, Vuelos: 895
+País: New Caledonia, Vuelos: 98
+País: Côte d'Ivoire, Vuelos: 165
+País: Maldives, Vuelos: 81
+País: Croatia, Vuelos: 53
+País: Jersey, Vuelos: 2
+País: Wallis and Futuna, Vuelos: 12
+País: Tuvalu, Vuelos: 12
+País: Isle of Man, Vuelos: 4
+País: Botswana, Vuelos: 104
+País: Dominica, Vuelos: 22
+País: Greece, Vuelos: 284
+País: Austria, Vuelos: 55
+País: United Arab Emirates, Vuelos: 93
+País: Timor-Leste, Vuelos: 47
+País: Equatorial Guinea, Vuelos: 40
+País: Israel, Vuelos: 96
+País: Uruguay, Vuelos: 96
+País: Zimbabwe, Vuelos: 90
+País: Qatar, Vuelos: 20
+País: French Guiana, Vuelos: 50
+País: Tonga, Vuelos: 42
+País: Poland, Vuelos: 127
+País: Suriname, Vuelos: 94
+País: Canada, Vuelos: 3194
+País: Bulgaria, Vuelos: 72
+País: Afghanistan, Vuelos: 213
+País: Montserrat, Vuelos: 12
+País: Central African Republic, Vuelos: 158
+País: Togo, Vuelos: 15
+País: Burundi, Vuelos: 31
+País: Sudan, Vuelos: 161
+País: Saint Vincent and the Grenadines, Vuelos: 29
+País: Guyana, Vuelos: 173
+País: Slovenia, Vuelos: 18
+País: South Sudan, Vuelos: 35
+País: Sint Maarten (Dutch part), Vuelos: 7
+País: Haiti, Vuelos: 39
+País: Tunisia, Vuelos: 62
+País: Faroe Islands, Vuelos: 7
+País: Ireland, Vuelos: 122
+País: Niue, Vuelos: 10
+País: Latvia, Vuelos: 19
+País: Mayotte, Vuelos: 6
+País: Slovakia, Vuelos: 45
+País: Mozambique, Vuelos: 230
+País: Gabon, Vuelos: 202
+País: Somalia, Vuelos: 140
+País: Micronesia, Federated States of, Vuelos: 51
+País: Guinea, Vuelos: 82
+País: Thailand, Vuelos: 317
+País: Norway, Vuelos: 380
+País: France, Vuelos: 847
+País: Grenada, Vuelos: 11
+País: Benin, Vuelos: 34
+País: Korea, Democratic People's Republic of, Vuelos: 34
+País: Dominican Republic, Vuelos: 89
+País: Luxembourg, Vuelos: 8
+País: Belgium, Vuelos: 41
+País: Japan, Vuelos: 610
+País: Turkmenistan, Vuelos: 38
+País: Bhutan, Vuelos: 23
+País: Morocco, Vuelos: 167
+País: Tajikistan, Vuelos: 23
+País: Georgia, Vuelos: 18
+País: Spain, Vuelos: 380
+País: Yemen, Vuelos: 109
+País: Oman, Vuelos: 130
+País: Norfolk Island, Vuelos: 8
+País: Saint Lucia, Vuelos: 9
+País: Papua New Guinea, Vuelos: 2483
+País: Turkey, Vuelos: 440
+País: Cook Islands, Vuelos: 55
+País: Eritrea, Vuelos: 27
+País: Taiwan, Province of China, Vuelos: 126
+País: United States Minor Outlying Islands, Vuelos: 14
+País: Bangladesh, Vuelos: 114
+País: Congo, Vuelos: 153
+País: Ghana, Vuelos: 23
+País: Pakistan, Vuelos: 451
+País: Romania, Vuelos: 125
+País: Denmark, Vuelos: 120
+País: Singapore, Vuelos: 29
+País: Colombia, Vuelos: 1016
+País: Lesotho, Vuelos: 102
+País: Panama, Vuelos: 238
+País: Cambodia, Vuelos: 85
+País: Seychelles, Vuelos: 38
+País: Mauritania, Vuelos: 121
+País: Niger, Vuelos: 34
+País: Russian Federation, Vuelos: 1336
+País: Nepal, Vuelos: 267
+País: Chile, Vuelos: 348
+País: South Africa, Vuelos: 567
+País: Djibouti, Vuelos: 27
+País: Zambia, Vuelos: 130
+País: French Polynesia, Vuelos: 310
+País: Portugal, Vuelos: 143
+País: Guam, Vuelos: 21
+País: Saint Pierre and Miquelon, Vuelos: 14
+País: Kazakhstan, Vuelos: 183
+País: Anguilla, Vuelos: 8
+País: Costa Rica, Vuelos: 181
+País: Bonaire, Sint Eustatius and Saba, Vuelos: 21
+País: Moldova, Republic of, Vuelos: 13
+País: Paraguay, Vuelos: 94
+País: Vanuatu, Vuelos: 211
+
+=== 5. TOP 5 AEROPUERTOS CON MAYOR NÚMERO DE PASAJEROS ===
+Aeropuerto: San Pedro Airport, Pasajeros: 26
+Aeropuerto: Maliana airport, Pasajeros: 23
+Aeropuerto: Böblingen Flugfeld, Pasajeros: 22
+Aeropuerto: Queenstown Airport, Pasajeros: 21
+Aeropuerto: Santa Maria Airport, Pasajeros: 21
+
+=== 6. VUELOS POR ESTADO DE VUELO ===
+Estado: Cancelled, Vuelos: 19906
+Estado: Delayed, Vuelos: 19874
+Estado: On Time, Vuelos: 19876
+
+=== 7. TOP 5 DE LOS PAÍSES MÁS VISITADOS ===
+País: United States, Pasajeros: 13283
+País: Australia, Pasajeros: 3847
+País: Canada, Pasajeros: 3194
+País: Brazil, Pasajeros: 2776
+País: Papua New Guinea, Pasajeros: 2483
+
+=== 8. TOP 5 DE LOS CONTINENTES MÁS VISITADOS ===
+Continente: North America, Pasajeros: 19128
+Continente: Asia, Pasajeros: 11309
+Continente: Oceania, Pasajeros: 8440
+Continente: Europe, Pasajeros: 7525
+Continente: Africa, Pasajeros: 6764
+
+=== 9. TOP 5 DE EDADES DIVIDIDO POR GÉNERO QUE MÁS VIAJAN ===
+Género: Male, Edad: 24, Vuelos: 375
+Género: Female, Edad: 72, Vuelos: 365
+Género: Female, Edad: 74, Vuelos: 365
+Género: Female, Edad: 57, Vuelos: 363
+Género: Male, Edad: 68, Vuelos: 362
+
+=== 10. VUELOS POR MES/AÑO ===Mes/Año: 01-2022, Vuelos: 5217
+Mes/Año: 02-2022, Vuelos: 4398
+Mes/Año: 03-2022, Vuelos: 5195
+Mes/Año: 04-2022, Vuelos: 4728
+Mes/Año: 05-2022, Vuelos: 5183
+Mes/Año: 06-2022, Vuelos: 4872
+Mes/Año: 07-2022, Vuelos: 5167
+Mes/Año: 08-2022, Vuelos: 5232
+Mes/Año: 09-2022, Vuelos: 4897
+Mes/Año: 10-2022, Vuelos: 5223
+Mes/Año: 11-2022, Vuelos: 4812
+Mes/Año: 12-2022, Vuelos: 4732

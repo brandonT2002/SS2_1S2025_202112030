@@ -118,6 +118,7 @@ def create_model(connection):
         print(f"❌ Error al crear el modelo: {e}")
 
 def queries(connection):
+    salida = ""
     cursor = connection.cursor()
 
     # Consultas iniciales
@@ -147,21 +148,32 @@ def queries(connection):
     """)
     results = cursor.fetchall()
 
-    print(f"Pasajeros: {pasajeros}")
-    print(f"Fechas de Salida: {fechas}")
-    print(f"Aeropuertos Salida: {aeropuertoS}")
-    print(f"Aeropuertos Llegada: {aeropuertoL}")
-    print(f"Pilotos: {pilotos}")
-    print(f"Estados: {estados}")
-    print(f"Vuelos: {vuelos}")
+    # print(f"Pasajeros: {pasajeros}")
+    # print(f"Fechas de Salida: {fechas}")
+    # print(f"Aeropuertos Salida: {aeropuertoS}")
+    # print(f"Aeropuertos Llegada: {aeropuertoL}")
+    # print(f"Pilotos: {pilotos}")
+    # print(f"Estados: {estados}")
+    # print(f"Vuelos: {vuelos}")
+    salida += f"=== 1. COUNT DE TABLAS ===\n"
+    salida += f"Pasajeros: {pasajeros}\n"
+    salida += f"Fechas de Salida: {fechas}\n"
+    salida += f"Aeropuertos Salida: {aeropuertoS}\n"
+    salida += f"Aeropuertos Llegada: {aeropuertoL}\n"
+    salida += f"Pilotos: {pilotos}\n"
+    salida += f"Estados: {estados}\n"
+    salida += f"Vuelos: {vuelos}\n"
     
+    salida += f"\n=== 2. PASAJEROS POR GÉNERO ===\n"
     for result in results:
         genero = result[0]
         usuarios = result[1]
         porcentaje = (usuarios / pasajeros) * 100
-        print(f"{genero}: {porcentaje:.2f}%")
+        # print(f"{genero}: {porcentaje:.2f}%")
+        salida += f"{genero}: {porcentaje:.2f}%\n"
 
     # Consulta: Nacionalidades con su mes/año de mayor fecha de salida
+    salida += "\n=== 3. NACIONALIDADES CON SU MES/AÑO DE MAYOR FECHA DE SALIDA ===\n"
     cursor.execute("""
         SELECT 
             P.Nacionalidad, 
@@ -175,11 +187,12 @@ def queries(connection):
         ORDER BY P.Nacionalidad, Anio, Mes;
     """)
     nacionalidades = cursor.fetchall()
-    print("\nNacionalidades con su mes/año de mayor fecha de salida:")
     for row in nacionalidades:
-        print(f"Nacionalidad: {row[0]}, Año: {row[1]}, Mes: {row[2]}, Vuelos: {row[3]}")
+        # print(f"Nacionalidad: {row[0]}, Año: {row[1]}, Mes: {row[2]}, Vuelos: {row[3]}")
+        salida += f"Nacionalidad: {row[0]}, Año: {row[1]}, Mes: {row[2]}, Vuelos: {row[3]}\n"
 
     # Consulta: COUNT de vuelos por país
+    salida += "\n=== 4. VUELOS POR PAÍS ===\n"
     cursor.execute("""
         SELECT 
             A.NombrePais, 
@@ -189,11 +202,12 @@ def queries(connection):
         GROUP BY A.NombrePais;
     """)
     vuelos_por_pais = cursor.fetchall()
-    print("\nVuelos por país:")
     for row in vuelos_por_pais:
-        print(f"País: {row[0]}, Vuelos: {row[1]}")
+        # print(f"País: {row[0]}, Vuelos: {row[1]}")
+        salida += f"País: {row[0]}, Vuelos: {row[1]}\n"
 
     # Consulta: Top 5 aeropuertos con mayor número de pasajeros
+    salida += "\n=== 5. TOP 5 AEROPUERTOS CON MAYOR NÚMERO DE PASAJEROS ===\n"
     cursor.execute("""
         SELECT TOP 5 
             A.NombreAeropuerto, 
@@ -204,11 +218,12 @@ def queries(connection):
         ORDER BY Pasajeros DESC;
     """)
     aeropuertos_top5 = cursor.fetchall()
-    print("\nTop 5 aeropuertos con mayor número de pasajeros:")
     for row in aeropuertos_top5:
-        print(f"Aeropuerto: {row[0]}, Pasajeros: {row[1]}")
+        # print(f"Aeropuerto: {row[0]}, Pasajeros: {row[1]}")
+        salida += f"Aeropuerto: {row[0]}, Pasajeros: {row[1]}\n"
 
     # Consulta: COUNT de vuelos dividido por estado de vuelo
+    salida += "\n=== 6. VUELOS POR ESTADO DE VUELO ===\n"
     cursor.execute("""
         SELECT 
             EV.Estado, 
@@ -218,11 +233,12 @@ def queries(connection):
         GROUP BY EV.Estado;
     """)
     vuelos_por_estado = cursor.fetchall()
-    print("\nVuelos por estado de vuelo:")
     for row in vuelos_por_estado:
-        print(f"Estado: {row[0]}, Vuelos: {row[1]}")
+        # print(f"Estado: {row[0]}, Vuelos: {row[1]}")
+        salida += f"Estado: {row[0]}, Vuelos: {row[1]}\n"
 
     # Consulta: Top 5 de los países más visitados
+    salida += "\n=== 7. TOP 5 DE LOS PAÍSES MÁS VISITADOS ===\n"
     cursor.execute("""
         SELECT TOP 5
             A.NombrePais,
@@ -234,11 +250,12 @@ def queries(connection):
         ORDER BY Pasajeros DESC;
     """)
     paises_top5 = cursor.fetchall()
-    print("\nTop 5 de los países más visitados:")
     for row in paises_top5:
-        print(f"País: {row[0]}, Pasajeros: {row[1]}")
+        # print(f"País: {row[0]}, Pasajeros: {row[1]}")
+        salida += f"País: {row[0]}, Pasajeros: {row[1]}\n"
 
     # Consulta: Top 5 de los continentes más visitados
+    salida += "\n=== 8. TOP 5 DE LOS CONTINENTES MÁS VISITADOS ===\n"
     cursor.execute("""
         SELECT TOP 5
             A.Continente, 
@@ -250,11 +267,12 @@ def queries(connection):
         ORDER BY Pasajeros DESC;
     """)
     continentes_top5 = cursor.fetchall()
-    print("\nTop 5 de los continentes más visitados:")
     for row in continentes_top5:
-        print(f"Continente: {row[0]}, Pasajeros: {row[1]}")
+        # print(f"Continente: {row[0]}, Pasajeros: {row[1]}")
+        salida += f"Continente: {row[0]}, Pasajeros: {row[1]}\n"
 
     # Consulta: Top 5 de edades dividido por género que más viajan
+    salida += "\n=== 9. TOP 5 DE EDADES DIVIDIDO POR GÉNERO QUE MÁS VIAJAN ===\n"
     cursor.execute("""
         SELECT TOP 5
             P.Genero,
@@ -266,11 +284,12 @@ def queries(connection):
         ORDER BY Vuelos DESC;
     """)
     edades_top5 = cursor.fetchall()
-    print("\nTop 5 de edades dividido por género que más viajan:")
     for row in edades_top5:
-        print(f"Género: {row[0]}, Edad: {row[1]}, Vuelos: {row[2]}")
+        # print(f"Género: {row[0]}, Edad: {row[1]}, Vuelos: {row[2]}")
+        salida += f"Género: {row[0]}, Edad: {row[1]}, Vuelos: {row[2]}\n"
 
     # Consulta: COUNT de vuelos por MM-YYYY
+    salida += "\n=== 10. VUELOS POR MES/AÑO ==="
     cursor.execute("""
         SELECT 
             FORMAT(FS.Fecha, 'MM-yyyy') AS MesAnio,
@@ -281,6 +300,11 @@ def queries(connection):
         ORDER BY MesAnio;
     """)
     vuelos_por_mesanio = cursor.fetchall()
-    print("\nVuelos por Mes/Año:")
     for row in vuelos_por_mesanio:
-        print(f"Mes/Año: {row[0]}, Vuelos: {row[1]}")
+        # print(f"Mes/Año: {row[0]}, Vuelos: {row[1]}")
+        salida += f"Mes/Año: {row[0]}, Vuelos: {row[1]}\n"
+
+    print("✅ Reporte Generado.")
+    with open("ReporteConsultas.txt", "w") as archivo:
+        archivo.write(salida)
+

@@ -178,7 +178,7 @@ def load_data_to_db(df_cleaned, data_tranformed, airportS_tranformed, arrivalA_t
         cursor.executemany(insert_query, insert_data)
         connection.commit()
 
-        print(f"✅ {len(insert_data)} vuelos insertados correctamente.")
+        print(f"✅ Vuelos insertados correctamente.")
 
         # Cerrar la conexión a la base de datos
         connection.close()
