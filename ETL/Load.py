@@ -13,13 +13,12 @@ def load_data_to_db(df_cleaned, data_tranformed, airportS_tranformed, arrivalA_t
                 VALUES (source.IdPasajero, source.Nombre, source.Apellido, source.Genero, source.Edad, source.Nacionalidad);
         """
 
-        # Insertar los datos en la base de datos de manera más eficiente
+        # preparar insert masivo
         data_to_insert = []
         for index, row in df_cleaned.iterrows():
             data_to_insert.append((row['IdPasajero'], row['Nombre'], row['Apellido'], row['Genero'], row['Edad'], row['Nacionalidad']))
 
-        # Agrupar todas las inserciones en una transacción
-        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        cursor.fast_executemany = True  # a echar punta
         cursor.executemany(merge_query, data_to_insert)
         connection.commit()
         print("✅ Pasajeros insertados correctamente.")
@@ -36,13 +35,12 @@ def load_data_to_db(df_cleaned, data_tranformed, airportS_tranformed, arrivalA_t
                 VALUES (source.Fecha, source.Anio, source.Mes, source.Dia);
         """
 
-        # Insertar los datos en la base de datos de manera más eficiente
+        # preparar insert masivo
         data_to_insert = []
         for index, row in data_tranformed.iterrows():
             data_to_insert.append((row['Departure Date'].date(), row['Anio'], row['Mes'], row['Dia']))
 
-        # Agrupar todas las inserciones en una transacción
-        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        cursor.fast_executemany = True  # a echar punta
         cursor.executemany(merge_query, data_to_insert)
         connection.commit()
 
@@ -63,8 +61,8 @@ def load_data_to_db(df_cleaned, data_tranformed, airportS_tranformed, arrivalA_t
         # Preparar los datos para inserción masiva
         data_to_insert = list(airportS_tranformed[['Airport Name', 'Airport Country Code', 'Country Name', 'Airport Continent', 'Continents']].itertuples(index=False, name=None))
 
-        # Insertar los datos en la base de datos de manera más eficiente
-        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        # preparar insert masivo
+        cursor.fast_executemany = True  # a echar punta
         cursor.executemany(merge_query, data_to_insert)
         connection.commit()
 
@@ -85,8 +83,8 @@ def load_data_to_db(df_cleaned, data_tranformed, airportS_tranformed, arrivalA_t
         # Preparar los datos para inserción masiva
         data_to_insert = list(arrivalA_tranformed[['Arrival Airport']].itertuples(index=False, name=None))
 
-        # Insertar los datos en la base de datos de manera más eficiente
-        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        # preparar insert masivo
+        cursor.fast_executemany = True  # a echar punta
         cursor.executemany(merge_query, data_to_insert)
         connection.commit()
 
@@ -129,7 +127,7 @@ def load_data_to_db(df_cleaned, data_tranformed, airportS_tranformed, arrivalA_t
         data_to_insert = list(flightS_tranformed[['Flight Status']].itertuples(index=False, name=None))
 
         # Insertar los datos en la base de datos de manera eficiente
-        cursor.fast_executemany = True  # Activar fast_executemany para mejorar la velocidad
+        cursor.fast_executemany = True  # a echar punta
         cursor.executemany(merge_query, data_to_insert)
         connection.commit()
 
@@ -186,8 +184,6 @@ def load_data_to_db(df_cleaned, data_tranformed, airportS_tranformed, arrivalA_t
         print(f"❌ Error al cargar los datos: {e}")
         connection.rollback()
 
-
-# **2. Obtener IDs en una sola consulta por tabla**
 def fetch_ids(cursor, table, column_name, values, batch_size=1000):
     """ Obtiene los IDs correspondientes a una lista de valores en lotes pequeños """
     id_map = {}
