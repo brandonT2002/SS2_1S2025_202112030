@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="mysql_db1.root"
+  DTS:DTSID="{DA13C134-3168-4C61-8BE4-9BC65A9FD301}"
+  DTS:CreationName="ODBC">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="uid=root;Dsn=mysql_db1;">
+      <DTS:Password
+        DTS:Name="pwd"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAi2gzJwcf7E+E2myHGBqCEAAAAAACAAAAAAAQZgAAAAEAACAAAAD6Z5gSi8Qei/qPIvFwgM4y+WOHhe2l5sh2ULiOSM1ixQAAAAAOgAAAAAIAACAAAABoL8ebC8uPo6bDoJYkpy7Z/cXcAT7MeoGzFxnJW/CX8nAAAABCBLZjPNjf1ix4V3YjLvFqEqX3iM9to6QIShBvt/hsVmr2A54A3iPs885ur645FBuz/GsIu9MJdLMQ1pE+6LnZ8pgEU4oKwUGx0UcFBbtiG72Ye68p/euyY91jY1xOwj5s8uhalmWR6mSDFL/xn9u3QAAAAO6FL+ZZkGaYIwEZR822WPv3Qe6UlnWztld0ycKW4+9k3WTx5QZT//LI8SYOmXuW9SEgVrpgw/AQgEhLnu19F7Q=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

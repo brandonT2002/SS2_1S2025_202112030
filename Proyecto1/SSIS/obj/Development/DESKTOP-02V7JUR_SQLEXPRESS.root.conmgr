@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-02V7JUR_SQLEXPRESS.root"
+  DTS:DTSID="{2594FE36-10BD-4C1D-9151-B1DA92D57418}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-02V7JUR\SQLEXPRESS;Initial Catalog=SGFood;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-{2594FE36-10BD-4C1D-9151-B1DA92D57418}DESKTOP-02V7JUR_SQLEXPRESS.root;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
