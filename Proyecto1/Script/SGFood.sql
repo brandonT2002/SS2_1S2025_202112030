@@ -70,3 +70,11 @@ CREATE TABLE Venta (
     CodProducto VARCHAR(64) FOREIGN KEY REFERENCES Producto(Codigo),
     CodSucursal VARCHAR(64) FOREIGN KEY REFERENCES Sucursal(Codigo)
 );
+
+SELECT * FROM Venta;
+SELECT * FROM Compra;
+SELECT * FROM Vendedor;
+SELECT * FROM Sucursal;
+SELECT * FROM Proveedor;
+SELECT * FROM Producto;
+SELECT * FROM Cliente;
