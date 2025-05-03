@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Proveedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|solutionrelative:Proveedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Sucursal.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|solutionrelative:Sucursal.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Producto.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|solutionrelative:Producto.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Cliente.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|solutionrelative:Cliente.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Vendedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|solutionrelative:Vendedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\SG Food.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}|CuboFase2-v2.dwproj|solutionrelative:SG Food.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 326,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Proveedor.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Proveedor.dim",
+              "RelativeDocumentMoniker": "Proveedor.dim",
+              "ToolTip": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Proveedor.dim [Dise\u00F1o]",
+              "RelativeToolTip": "Proveedor.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T00:43:09.824Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sucursal.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Sucursal.dim",
+              "RelativeDocumentMoniker": "Sucursal.dim",
+              "ToolTip": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Sucursal.dim [Dise\u00F1o]",
+              "RelativeToolTip": "Sucursal.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T00:42:58.661Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Producto.dim",
+              "RelativeDocumentMoniker": "Producto.dim",
+              "ToolTip": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Producto.dim [Dise\u00F1o]",
+              "RelativeToolTip": "Producto.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T00:42:50.378Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Cliente.dim",
+              "RelativeDocumentMoniker": "Cliente.dim",
+              "ToolTip": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Cliente.dim [Dise\u00F1o]",
+              "RelativeToolTip": "Cliente.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T00:42:41.081Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vendedor.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Vendedor.dim",
+              "RelativeDocumentMoniker": "Vendedor.dim",
+              "ToolTip": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\Vendedor.dim [Dise\u00F1o]",
+              "RelativeToolTip": "Vendedor.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T00:42:28.161Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SG Food.cube [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\SG Food.cube",
+              "RelativeDocumentMoniker": "SG Food.cube",
+              "ToolTip": "C:\\Users\\Jefferson\\Desktop\\USAC\\1S2025\\Semi2\\Lab\\SS2_1S2025_202112030\\Proyecto2\\SSAS\\CuboFase2-v2\\CuboFase2-v2\\SG Food.cube [Dise\u00F1o]",
+              "RelativeToolTip": "SG Food.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T00:42:18.855Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

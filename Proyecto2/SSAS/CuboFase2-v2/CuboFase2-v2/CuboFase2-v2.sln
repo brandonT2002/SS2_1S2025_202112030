@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CuboFase2-v2", "CuboFase2-v2.dwproj", "{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}.Development|Default.ActiveCfg = Development
+		{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}.Development|Default.Build.0 = Development
+		{251FA5A6-7A0D-4CAE-CA38-38AC8253BA2B}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF407BCB-1E30-4EC3-9451-A600AB9C210B}
+	EndGlobalSection
+EndGlobal
